@@ -2,7 +2,7 @@
   "name": "d3-react-globe",
   "version": "0.0.1",
   "description": "D3 svg globe rendered by ReactJS loaded from geojson/topojson",
-  "homepage": "https://groovie.gitlab.io/modules",
+  "homepage": "https://groovie.gitlab.io",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "author": {
@@ -31,17 +31,10 @@
     "topojson-client": "^3.1.0"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

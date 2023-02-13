@@ -2,11 +2,11 @@
  * @category Globe
  * @module Globe Hooks
  */
-import { noop } from 'lodash'
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { EMPTY_OBJECT } from './constants'
-import { BooleanState, MutableStates } from './types'
-import mergeDeep, { getDistance } from './utils'
+import { noop } from "lodash";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { EMPTY_OBJECT } from "./constants";
+import { BooleanState, MutableStates } from "./types";
+import mergeDeep, { getDistance } from "./utils";
 
 /**
  * @param ref element target to call addEventListener
@@ -23,10 +23,10 @@ export function useEventListener(
   listener?: EventListener
 ) {
   useEffect(() => {
-    if (!event || !listener || !ref) return
-    ref?.addEventListener(event, listener)
-    return () => ref?.removeEventListener(event, listener)
-  }, [listener, ref, event])
+    if (!event || !listener || !ref) return;
+    ref?.addEventListener(event, listener);
+    return () => ref?.removeEventListener(event, listener);
+  }, [listener, ref, event]);
 }
 
 /**
@@ -37,7 +37,7 @@ export function useEventListener(
  * @category Listener
  */
 export function useOnWindowResize(listener?: EventListener) {
-  useEventListener(window, 'resize', listener)
+  useEventListener(window, "resize", listener);
 }
 
 /**
@@ -47,14 +47,14 @@ export function useOnWindowResize(listener?: EventListener) {
  * @category State
  */
 export function useBooleanState(initial: boolean = false) {
-  const [bool, setBool] = useState(initial)
-  const trully = useCallback(() => setBool(true), [])
-  const falsy = useCallback(() => setBool(false), [])
-  const negate = useCallback(() => setBool((b) => !b), [])
+  const [bool, setBool] = useState(initial);
+  const trully = useCallback(() => setBool(true), []);
+  const falsy = useCallback(() => setBool(false), []);
+  const negate = useCallback(() => setBool((b) => !b), []);
   return useMemo<BooleanState>(
     () => ({ bool, trully, falsy, negate }),
     [bool, falsy, negate, trully]
-  )
+  );
 }
 
 /**
@@ -71,15 +71,14 @@ export function useBooleanState(initial: boolean = false) {
  * @category State
  */
 export function useStates<T = any>(initials: Array<T>): MutableStates<T> {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const states = initials.map((s) => useState(s))
+  const states = initials.map((s) => useState(s));
   const dispatch = useCallback(
-    (p) => {
-      states.forEach(([s, d], i) => (Array.isArray(p) ? d(p[i]) : d(p)))
+    (p: any) => {
+      states.forEach(([s, d], i) => (Array.isArray(p) ? d(p[i]) : d(p)));
     },
     [states]
-  )
-  return [states, dispatch]
+  );
+  return [states, dispatch];
 }
 
 /**
@@ -94,10 +93,10 @@ export function useFetch(
 ) {
   return useCallback(
     (url: string) => {
-      fetch(url).then(callback).catch(throwback)
+      fetch(url).then(callback).catch(throwback);
     },
     [callback, throwback]
-  )
+  );
 }
 
 /**
@@ -107,12 +106,12 @@ export function useFetch(
  * @category Listener
  */
 export function useFetchOnEffect(url?: string) {
-  const [response, store] = useState<Response>()
-  const load = useFetch(store)
+  const [response, store] = useState<Response>();
+  const load = useFetch(store);
   useEffect(() => {
-    if (url) load(url)
-  }, [load, url])
-  return response
+    if (url) load(url);
+  }, [load, url]);
+  return response;
 }
 
 /**
@@ -128,11 +127,11 @@ export function useFetchJSON(
   return useFetch(
     useCallback(
       (res: Response) => {
-        res.json().then(callback).catch(throwback)
+        res.json().then(callback).catch(throwback);
       },
       [callback, throwback]
     )
-  )
+  );
 }
 
 /**
@@ -147,8 +146,8 @@ export function useEffectOnChange<T>(
   condition: boolean = true
 ) {
   useEffect(() => {
-    if (dispatch && condition && value !== undefined) dispatch(value)
-  }, [dispatch, condition, value])
+    if (dispatch && condition && value !== undefined) dispatch(value);
+  }, [dispatch, condition, value]);
 }
 /**
  * merge objects
@@ -161,11 +160,11 @@ export function useMerge() {
       source: Record<string, any> = EMPTY_OBJECT
     ) => mergeDeep(object, source),
     []
-  )
+  );
 }
 
 interface UseParamBroadcast {
-  (callbacks: any[]): any
+  (callbacks: any[]): any;
 }
 
 /**
@@ -178,16 +177,16 @@ export function useParamBroadcast<ForwardedData = Record<string, any>>(
 ) {
   return useCallback<UseParamBroadcast>(
     (callbacks) => (params: any) => {
-      const data = { ...params, ...forward }
-      callbacks.forEach((cb) => typeof cb === 'function' && cb(data))
+      const data = { ...params, ...forward };
+      callbacks.forEach((cb) => typeof cb === "function" && cb(data));
     },
     [forward]
-  )
+  );
 }
 
 /**
  * @category Hook
  */
 export function useGetDistance() {
-  return useCallback(getDistance, [])
+  return useCallback(getDistance, []);
 }

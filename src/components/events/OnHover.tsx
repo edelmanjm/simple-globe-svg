@@ -5,10 +5,10 @@
  * @module Globe Events OnHover
  */
 
-import React from 'react'
-import { PropsWithChildren, cloneElement, ReactElement } from 'react'
-import { usePropsOnMouseHover } from './hooks'
-import { HandleEventProps } from './types'
+import React from "react";
+import { PropsWithChildren, cloneElement, ReactElement } from "react";
+import { usePropsOnMouseHover } from "./hooks";
+import { HandleEventProps } from "./types";
 
 /**
  * clone children and merge props from [[usePropsOnMouseHover]]
@@ -24,10 +24,13 @@ export function Handler<
 }: PropsWithChildren<ComponentProps & HandleEventProps>) {
   const onHoveredProps = usePropsOnMouseHover<
     ComponentProps & HandleEventProps
-  >(props as any)
+  >(props as any);
   return children
-    ? cloneElement(children as ReactElement<ElementType>, onHoveredProps)
-    : null
+    ? cloneElement(
+        children as ReactElement<ElementType>,
+        onHoveredProps as Partial<ElementType>
+      )
+    : null;
 }
 
 /**
@@ -40,12 +43,12 @@ export function OnHover<ComponentProps = Record<string, any>>({
   hover,
   ...props
 }: PropsWithChildren<ComponentProps & Partial<HandleEventProps>>) {
-  if (!hover) return <>{children}</>
+  if (!hover) return <>{children}</>;
   return (
     <Handler hover={hover} {...props}>
       {children}
     </Handler>
-  )
+  );
 }
 
-export default OnHover
+export default OnHover;

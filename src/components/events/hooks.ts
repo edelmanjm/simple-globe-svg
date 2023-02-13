@@ -3,11 +3,11 @@
  * @module Globe Events Hooks
  */
 
-import { get } from 'lodash'
-import { useCallback, useMemo } from 'react'
-import { useBooleanState, useMerge } from '../hooks'
-import { EMPTY_EVENT_PROPS, SUPPORTED_EVENTS } from './constants'
-import { HandleHoverEventProps, OnHoverEventProps } from './types'
+import { get } from "lodash";
+import { useCallback, useMemo } from "react";
+import { useBooleanState, useMerge } from "../hooks";
+import { EMPTY_EVENT_PROPS, SUPPORTED_EVENTS } from "./constants";
+import { HandleHoverEventProps, OnHoverEventProps } from "./types";
 
 /**
  * forwards `data` into `onMouseEnter` and `onMouseLeave`
@@ -21,40 +21,40 @@ import { HandleHoverEventProps, OnHoverEventProps } from './types'
  */
 export function usePropsOnMouseHover<ComponentProps = Record<string, any>>(
   props: ComponentProps & {
-    hover: HandleHoverEventProps
+    hover: HandleHoverEventProps;
   } & Partial<OnHoverEventProps>
 ) {
-  const merge = useMerge()
+  const merge = useMerge();
   const {
     hover,
     onMouseEnter: onMouseEnterCb,
     onMouseLeave: onMouseLeaveCb,
-  } = props
+  } = props;
   const { props: enterProps, callback: enterCallback } =
-    hover?.enter || EMPTY_EVENT_PROPS
+    hover?.enter || EMPTY_EVENT_PROPS;
   const { props: leaveProps, callback: leaveCallback } =
-    hover?.leave || EMPTY_EVENT_PROPS
+    hover?.leave || EMPTY_EVENT_PROPS;
   const {
     bool: hovered,
     trully: onhover,
     falsy: unhover,
-  } = useBooleanState(false)
+  } = useBooleanState(false);
   const onMouseEnter = useCallback(
-    (ev) => {
-      if (onMouseEnterCb) onMouseEnterCb(ev)
-      if (enterCallback) enterCallback(ev)
-      onhover()
+    (ev: MouseEvent & void) => {
+      if (onMouseEnterCb) onMouseEnterCb(ev);
+      if (enterCallback) enterCallback(ev);
+      onhover();
     },
     [onMouseEnterCb, onhover, enterCallback]
-  )
+  );
   const onMouseLeave = useCallback(
-    (ev) => {
-      if (onMouseLeaveCb) onMouseLeaveCb(ev)
-      if (leaveCallback) leaveCallback(ev)
-      unhover()
+    (ev: MouseEvent & void) => {
+      if (onMouseLeaveCb) onMouseLeaveCb(ev);
+      if (leaveCallback) leaveCallback(ev);
+      unhover();
     },
     [onMouseLeaveCb, unhover, leaveCallback]
-  )
+  );
   const forwardedProps = useMemo(
     () =>
       merge(props, {
@@ -62,7 +62,7 @@ export function usePropsOnMouseHover<ComponentProps = Record<string, any>>(
         onMouseLeave,
       }),
     [merge, onMouseEnter, onMouseLeave, props]
-  )
+  );
   const onHoveredProps = useMemo(
     () =>
       hovered
@@ -73,8 +73,8 @@ export function usePropsOnMouseHover<ComponentProps = Record<string, any>>(
         ? merge(forwardedProps, leaveProps)
         : forwardedProps,
     [hovered, merge, forwardedProps, enterProps, leaveProps]
-  ) as ComponentProps & OnHoverEventProps
-  return onHoveredProps
+  );
+  return onHoveredProps;
 }
 
 /**
@@ -88,17 +88,17 @@ export function useForwardOnEvent<
 >(data: ForwardedData, props?: ComponentProps) {
   return useCallback(
     (event: string) => {
-      if (!props) return
-      const callback = get(props, event, null)
-      if (!callback) return
+      if (!props) return;
+      const callback = get(props, event, null);
+      if (!callback) return;
       return (ev: MouseEvent) => {
-        const forward = { ...ev, ...data }
-        if (typeof callback === 'function') callback(forward)
-        return callback
-      }
+        const forward = { ...ev, ...data };
+        if (typeof callback === "function") callback(forward);
+        return callback;
+      };
     },
     [data, props]
-  )
+  );
 }
 
 /**
@@ -108,17 +108,16 @@ export function useForwardOnEvent<
  * @param supported [[SUPPORTED_EVENTS]]
  * @returns supported event keys found at props
  */
-export function useSupportedEventKeys<ComponentProps = Record<string, any>>(
-  props: ComponentProps,
-  supported: string[] = SUPPORTED_EVENTS
-) {
+export function useSupportedEventKeys<
+  ComponentProps extends Record<string, any>
+>(props: ComponentProps, supported: string[] = SUPPORTED_EVENTS) {
   return useMemo(() => {
-    const result: string[] = []
+    const result: string[] = [];
     Object.keys(props).forEach((k) => {
       if (supported.includes(k)) {
-        result.push(k)
+        result.push(k);
       }
-    })
-    return result
-  }, [props, supported])
+    });
+    return result;
+  }, [props, supported]);
 }

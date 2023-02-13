@@ -68,7 +68,6 @@ export function useCameraRotationHandler(
   useEffect(() => {
     if (initialX !== rX || initialY !== rY)
       controller((curr) => ({ ...curr, rotation: new Coord(rX, rY) }));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rX, rY, controller]);
 
   // update rotation x with settings data
