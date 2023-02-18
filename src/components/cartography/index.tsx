@@ -36,7 +36,7 @@ function Switch({
   }
 }
 
-const URLS = Object.values(CartographyUrl);
+const URLS = [Object.values(CartographyUrl)[1]];
 
 /**
  * maps [[CartographyData]] into supported formats render
@@ -52,9 +52,9 @@ export function Cartography({
   const load = useCallback((j: JSON) => {
     setData((curr) => [...curr, j]);
   }, []);
-  const json = useFetchJSON(load);
-  const update = useCallback(() => urls.map(json), [json, urls]);
-  useEffectOnChange(null, update);
+  const loader = useFetchJSON(load);
+  const update = useCallback(() => urls.map(loader), [loader, urls]);
+  useEffectOnChange(urls, update);
   return (
     <>
       {data.map((d) => (

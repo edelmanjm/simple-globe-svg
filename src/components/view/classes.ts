@@ -3,10 +3,10 @@
  * @module Globe View Classes
  */
 
-import { Point } from '../classes'
-import { EMPTY_POINT } from '../constants'
-import { MutableState } from '../types'
-import { INITIAL_SCALE } from './constants'
+import { Point } from "../classes";
+import { EMPTY_POINT } from "../constants";
+import { MutableState } from "../types";
+import { INITIAL_SCALE } from "./constants";
 
 /**
  * @category Data
@@ -24,5 +24,5 @@ export class ViewData {
  * @category Props
  */
 export class ViewProps {
-  settings?: MutableState<ViewData>
+  settings?: MutableState<ViewData>;
 }
