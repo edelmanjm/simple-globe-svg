@@ -2,11 +2,9 @@
   "name": "d3-react-globe",
   "version": "0.0.1",
   "description": "D3 svg globe rendered by ReactJS loaded from geojson/topojson",
-  "homepage": "https://groovie.gitlab.io/modules",
   "author": {
     "name": "Jayme Santos",
-    "email": "jimiaspampa@gmail.com",
-    "url": "https://gitlab.com/gaushao"
+    "email": "jimiaspampa@gmail.com"
   },
   "scripts": {
     "start": "react-scripts start",
