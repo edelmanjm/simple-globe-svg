@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/components/camera/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/classes.ts#L14)
+[src/components/camera/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/classes.ts#L14)
 
 ## Properties
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[src/components/camera/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/classes.ts#L14)
+[src/components/camera/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/classes.ts#L14)

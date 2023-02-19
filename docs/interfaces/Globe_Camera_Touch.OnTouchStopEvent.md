@@ -30,7 +30,7 @@ TouchEventHandler
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:21](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/hooks/touch.ts#L21)
+[src/components/camera/hooks/touch.ts:21](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L21)
 
 ### OnTouchStopEvent
 

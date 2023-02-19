@@ -26,7 +26,7 @@ deal with camera rotation
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:42](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/hooks/rotate.ts#L42)
+[src/components/camera/hooks/rotate.ts:42](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L42)
 
 ## Handler Functions
 
@@ -46,4 +46,4 @@ deal with camera rotation
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:49](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/hooks/rotate.ts#L49)
+[src/components/camera/hooks/rotate.ts:49](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L49)

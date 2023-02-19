@@ -22,7 +22,7 @@ todo docs
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:102](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/hooks/touch.ts#L102)
+[src/components/camera/hooks/touch.ts:102](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L102)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:103](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/hooks/touch.ts#L103)
+[src/components/camera/hooks/touch.ts:103](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L103)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:104](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/hooks/touch.ts#L104)
+[src/components/camera/hooks/touch.ts:104](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L104)

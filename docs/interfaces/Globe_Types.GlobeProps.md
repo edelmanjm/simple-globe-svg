@@ -24,7 +24,7 @@ root component props
 
 #### Defined in
 
-[src/components/types.ts:68](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L68)
+[src/components/types.ts:68](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L68)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:66](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L66)
+[src/components/types.ts:66](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L66)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:67](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L67)
+[src/components/types.ts:67](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L67)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:64](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L64)
+[src/components/types.ts:64](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L64)
 
 ___
 
@@ -64,4 +64,4 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:65](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L65)
+[src/components/types.ts:65](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L65)

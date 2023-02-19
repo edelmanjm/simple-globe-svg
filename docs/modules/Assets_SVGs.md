@@ -23,4 +23,4 @@
 
 #### Defined in
 
-[src/assets/index.ts:12](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/assets/index.ts#L12)
+[src/assets/index.ts:12](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/assets/index.ts#L12)

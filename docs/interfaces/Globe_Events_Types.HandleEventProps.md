@@ -27,4 +27,4 @@ can be used to assist some events setup
 
 #### Defined in
 
-[src/components/events/types.ts:32](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/types.ts#L32)
+[src/components/events/types.ts:32](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/types.ts#L32)

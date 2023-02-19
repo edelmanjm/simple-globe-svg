@@ -33,4 +33,4 @@ ViewProvider
 
 #### Defined in
 
-[src/components/view/index.tsx:28](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/index.tsx#L28)
+[src/components/view/index.tsx:28](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/index.tsx#L28)

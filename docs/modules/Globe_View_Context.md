@@ -26,7 +26,7 @@ provides state and dispatch features to view port handling
 
 #### Defined in
 
-[src/components/view/Context.tsx:22](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/Context.tsx#L22)
+[src/components/view/Context.tsx:22](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/Context.tsx#L22)
 
 ## Provider Functions
 
@@ -53,4 +53,4 @@ provides state and dispatch features to view port handling
 
 #### Defined in
 
-[src/components/view/Context.tsx:35](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/Context.tsx#L35)
+[src/components/view/Context.tsx:35](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/Context.tsx#L35)

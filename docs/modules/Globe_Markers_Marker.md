@@ -47,4 +47,4 @@ render if there are coords and is `inCameraRange`
 
 #### Defined in
 
-[src/components/markers/Marker.tsx:37](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/markers/Marker.tsx#L37)
+[src/components/markers/Marker.tsx:37](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/Marker.tsx#L37)

@@ -22,7 +22,7 @@ every setting module can offer
 
 #### Defined in
 
-[src/components/types.ts:54](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L54)
+[src/components/types.ts:54](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L54)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:56](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L56)
+[src/components/types.ts:56](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L56)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:55](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/types.ts#L55)
+[src/components/types.ts:55](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L55)

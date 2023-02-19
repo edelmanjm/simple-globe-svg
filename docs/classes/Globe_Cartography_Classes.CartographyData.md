@@ -38,7 +38,7 @@ list of urls for raw jsons
 
 #### Defined in
 
-[src/components/cartography/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/classes.ts#L14)
+[src/components/cartography/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/classes.ts#L14)
 
 ## Properties
 
@@ -48,7 +48,7 @@ list of urls for raw jsons
 
 #### Defined in
 
-[src/components/cartography/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/classes.ts#L14)
+[src/components/cartography/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/classes.ts#L14)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 #### Defined in
 
-[src/components/cartography/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/classes.ts#L14)
+[src/components/cartography/classes.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/classes.ts#L14)

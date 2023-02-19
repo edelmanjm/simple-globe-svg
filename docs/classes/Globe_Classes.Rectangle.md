@@ -95,7 +95,7 @@ Array&lt;Line\&gt;.constructor
 
 #### Defined in
 
-[src/components/classes.ts:66](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/classes.ts#L66)
+[src/components/classes.ts:66](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/classes.ts#L66)
 
 ## Properties
 
@@ -105,7 +105,7 @@ Array&lt;Line\&gt;.constructor
 
 #### Defined in
 
-[src/components/classes.ts:63](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/classes.ts#L63)
+[src/components/classes.ts:63](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/classes.ts#L63)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:65](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/classes.ts#L65)
+[src/components/classes.ts:65](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/classes.ts#L65)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:66](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/classes.ts#L66)
+[src/components/classes.ts:66](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/classes.ts#L66)
 
 ___
 
@@ -1205,7 +1205,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:74](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/classes.ts#L74)
+[src/components/classes.ts:74](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/classes.ts#L74)
 
 ___
 

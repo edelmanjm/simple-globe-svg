@@ -35,4 +35,4 @@ wraps every context around svg elements
 
 #### Defined in
 
-[src/components/index.tsx:26](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/index.tsx#L26)
+[src/components/index.tsx:26](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/index.tsx#L26)

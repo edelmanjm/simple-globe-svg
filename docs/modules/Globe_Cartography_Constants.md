@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/components/cartography/constants.ts:19](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/constants.ts#L19)
+[src/components/cartography/constants.ts:19](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/constants.ts#L19)

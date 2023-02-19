@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/components/cartography/constants.ts:13](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/constants.ts#L13)
+[src/components/cartography/constants.ts:13](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/constants.ts#L13)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/components/cartography/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/constants.ts#L12)
+[src/components/cartography/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/constants.ts#L12)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/components/cartography/constants.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/constants.ts#L14)
+[src/components/cartography/constants.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/constants.ts#L14)

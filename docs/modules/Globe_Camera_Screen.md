@@ -25,7 +25,7 @@ those will be used by camera for rotation handling
 
 #### Defined in
 
-[src/components/camera/Screen.tsx:26](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/Screen.tsx#L26)
+[src/components/camera/Screen.tsx:26](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/Screen.tsx#L26)
 
 ## Component Functions
 
@@ -72,4 +72,4 @@ useParamBroadcast injects CameraForwardedData into `camera events`
 
 #### Defined in
 
-[src/components/camera/Screen.tsx:52](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/Screen.tsx#L52)
+[src/components/camera/Screen.tsx:52](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/Screen.tsx#L52)

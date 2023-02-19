@@ -12,6 +12,9 @@
 
 - [Dev App](modules/Dev_App.md)
 - [Dev Constants](modules/Dev_Constants.md)
+- [Dev Constants](modules/Dev_Constants-1.md)
+- [Dev Page](modules/Dev_Page.md)
+- [Dev Root](modules/Dev_Root.md)
 
 ### Globe Modules
 
@@ -59,12 +62,6 @@
 - [Globe View FetchOnWindowResize](modules/Globe_View_FetchOnWindowResize.md)
 - [Globe View Hooks](modules/Globe_View_Hooks.md)
 
-### Page Modules
-
-- [Page](modules/Page.md)
-
 ### Other Modules
 
-- [constants](modules/constants.md)
-- [index](modules/index.md)
 - [types](modules/types.md)

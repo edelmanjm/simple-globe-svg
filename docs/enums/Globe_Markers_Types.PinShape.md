@@ -21,7 +21,7 @@ used to switch from marker shapes at Pin
 
 #### Defined in
 
-[src/components/markers/types.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/markers/types.ts#L14)
+[src/components/markers/types.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L14)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[src/components/markers/types.ts:15](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/markers/types.ts#L15)
+[src/components/markers/types.ts:15](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L15)

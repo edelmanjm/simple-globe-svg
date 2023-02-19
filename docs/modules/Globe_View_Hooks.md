@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/components/view/hooks.ts:12](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/hooks.ts#L12)
+[src/components/view/hooks.ts:12](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/hooks.ts#L12)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/components/view/hooks.ts:39](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/hooks.ts#L39)
+[src/components/view/hooks.ts:39](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/hooks.ts#L39)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[src/components/view/hooks.ts:16](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/hooks.ts#L16)
+[src/components/view/hooks.ts:16](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/hooks.ts#L16)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/components/view/hooks.ts:20](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/hooks.ts#L20)
+[src/components/view/hooks.ts:20](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/hooks.ts#L20)
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 #### Defined in
 
-[src/components/view/hooks.ts:25](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/view/hooks.ts#L25)
+[src/components/view/hooks.ts:25](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/hooks.ts#L25)

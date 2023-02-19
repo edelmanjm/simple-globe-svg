@@ -51,7 +51,7 @@ cloned children with onHoveredProps
 
 #### Defined in
 
-[src/components/events/OnHover.tsx:18](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/OnHover.tsx#L18)
+[src/components/events/OnHover.tsx:18](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/OnHover.tsx#L18)
 
 ___
 
@@ -81,4 +81,4 @@ cloned children with onHoveredProps
 
 #### Defined in
 
-[src/components/events/OnHover.tsx:41](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/OnHover.tsx#L41)
+[src/components/events/OnHover.tsx:41](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/OnHover.tsx#L41)

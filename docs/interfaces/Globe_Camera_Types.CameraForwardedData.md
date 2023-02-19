@@ -24,4 +24,4 @@ forwarded data
 
 #### Defined in
 
-[src/components/camera/types.ts:14](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/camera/types.ts#L14)
+[src/components/camera/types.ts:14](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/types.ts#L14)

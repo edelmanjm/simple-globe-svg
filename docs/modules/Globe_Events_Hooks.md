@@ -52,7 +52,7 @@ callback to merge props
 
 #### Defined in
 
-[src/components/events/hooks.ts:85](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/hooks.ts#L85)
+[src/components/events/hooks.ts:85](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/hooks.ts#L85)
 
 ___
 
@@ -87,7 +87,7 @@ merged props
 
 #### Defined in
 
-[src/components/events/hooks.ts:22](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/hooks.ts#L22)
+[src/components/events/hooks.ts:22](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/hooks.ts#L22)
 
 ___
 
@@ -118,4 +118,4 @@ supported event keys found at props
 
 #### Defined in
 
-[src/components/events/hooks.ts:111](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/hooks.ts#L111)
+[src/components/events/hooks.ts:111](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/hooks.ts#L111)

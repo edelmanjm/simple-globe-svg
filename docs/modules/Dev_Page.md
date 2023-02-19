@@ -1,12 +1,12 @@
-[React Simple Globe](../README.md) / [Exports](../modules.md) / Page
+[React Simple Globe](../README.md) / [Exports](../modules.md) / Dev Page
 
-# Module: Page
+# Module: Dev Page
 
 ## Table of contents
 
 ### Component Functions
 
-- [default](Page.md#default)
+- [default](Dev_Page.md#default)
 
 ## Component Functions
 
@@ -28,9 +28,9 @@ render links to git and docs
 
 `Element`
 
->'logos'
+>`logos`\
 >`children`
 
 #### Defined in
 
-[src/Page.tsx:42](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/Page.tsx#L42)
+[src/Page.tsx:42](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/Page.tsx#L42)

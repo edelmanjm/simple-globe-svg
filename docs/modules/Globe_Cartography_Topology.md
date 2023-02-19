@@ -42,4 +42,4 @@ map of `inCameraRange` Feature<Geometry, GeoJsonProperties> rendered by GeoPath
 
 #### Defined in
 
-[src/components/cartography/Topology.tsx:28](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/Topology.tsx#L28)
+[src/components/cartography/Topology.tsx:28](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/Topology.tsx#L28)

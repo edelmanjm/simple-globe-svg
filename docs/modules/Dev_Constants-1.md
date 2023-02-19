@@ -1,12 +1,14 @@
-[React Simple Globe](../README.md) / [Exports](../modules.md) / constants
+[React Simple Globe](../README.md) / [Exports](../modules.md) / Dev Constants
 
-# Module: constants
+# Module: Dev Constants
+
+initial props
 
 ## Table of contents
 
 ### Variables
 
-- [default](constants.md#default)
+- [default](Dev_Constants-1.md#default)
 
 ## Variables
 
@@ -34,4 +36,4 @@
 
 #### Defined in
 
-[src/constants.ts:49](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/constants.ts#L49)
+[src/constants.ts:55](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/constants.ts#L55)

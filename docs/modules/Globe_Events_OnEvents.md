@@ -48,4 +48,4 @@ cloned children with data injected into `supported` events
 
 #### Defined in
 
-[src/components/events/OnEvents.tsx:15](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/events/OnEvents.tsx#L15)
+[src/components/events/OnEvents.tsx:15](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/OnEvents.tsx#L15)

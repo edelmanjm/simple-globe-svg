@@ -20,4 +20,4 @@ label data
 
 #### Defined in
 
-[src/components/markers/types.ts:45](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/markers/types.ts#L45)
+[src/components/markers/types.ts:45](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L45)

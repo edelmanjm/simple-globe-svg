@@ -24,4 +24,4 @@ forwarded data
 
 #### Defined in
 
-[src/components/markers/types.ts:77](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/markers/types.ts#L77)
+[src/components/markers/types.ts:77](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L77)

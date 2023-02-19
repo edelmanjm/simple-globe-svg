@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/components/cartography/Topology.tsx:17](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/Topology.tsx#L17)
+[src/components/cartography/Topology.tsx:17](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/Topology.tsx#L17)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/components/cartography/Topology.tsx:18](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/cartography/Topology.tsx#L18)
+[src/components/cartography/Topology.tsx:18](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/Topology.tsx#L18)

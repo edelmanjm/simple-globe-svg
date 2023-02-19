@@ -47,7 +47,7 @@ absolute(`origin`) < `limit`
 
 #### Defined in
 
-[src/components/utils.ts:17](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L17)
+[src/components/utils.ts:17](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L17)
 
 ___
 
@@ -69,7 +69,7 @@ Simple object check.
 
 #### Defined in
 
-[src/components/utils.ts:108](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L108)
+[src/components/utils.ts:108](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L108)
 
 ___
 
@@ -96,7 +96,7 @@ diff between `initial` to `last` regarded direction
 
 #### Defined in
 
-[src/components/utils.ts:70](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L70)
+[src/components/utils.ts:70](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L70)
 
 ___
 
@@ -121,7 +121,7 @@ difference between `a` to `b`
 
 #### Defined in
 
-[src/components/utils.ts:62](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L62)
+[src/components/utils.ts:62](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L62)
 
 ___
 
@@ -146,7 +146,7 @@ Line diagonal of element bounding box
 
 #### Defined in
 
-[src/components/utils.ts:97](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L97)
+[src/components/utils.ts:97](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L97)
 
 ___
 
@@ -172,7 +172,7 @@ distance between `a` and `b`
 
 #### Defined in
 
-[src/components/utils.ts:83](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L83)
+[src/components/utils.ts:83](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L83)
 
 ___
 
@@ -198,7 +198,7 @@ limit projected `to` value into the `range`
 
 #### Defined in
 
-[src/components/utils.ts:29](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L29)
+[src/components/utils.ts:29](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L29)
 
 ___
 
@@ -224,7 +224,7 @@ the reflected axis value
 
 #### Defined in
 
-[src/components/utils.ts:42](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L42)
+[src/components/utils.ts:42](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L42)
 
 ___
 
@@ -251,4 +251,4 @@ merged objects
 
 #### Defined in
 
-[src/components/utils.ts:119](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/components/utils.ts#L119)
+[src/components/utils.ts:119](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/utils.ts#L119)
