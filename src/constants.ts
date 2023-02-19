@@ -1,3 +1,9 @@
+/**
+ * initial props
+ * @category Dev
+ * @module Dev Constants
+ */
+
 import { Coord } from "./components/classes";
 import { EMPTY_VIEW_DATA } from "./components/view/constants";
 

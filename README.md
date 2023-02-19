@@ -2,7 +2,7 @@
 
 - [Live](https://gaushao.github.io/d3-react-globe/)
 - [Docs](https://gaushao.github.io/d3-react-globe/docs)
-- [DocsMD](https://github.com/Gaushao/d3-react-globe/tree/main/docs)
+- [Git](https://github.com/Gaushao/d3-react-globe)
 
 ### Install
 

@@ -19,7 +19,7 @@ window.document.body.style.fontFamily = "system-ui";
  * setup development props into [[Globe]]
  * @category Component
  * @returns
- * >[[Page]]
+ * >[[Dev Page]]
  * >>[[Globe]]
  */
 function App() {

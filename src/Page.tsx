@@ -1,6 +1,6 @@
 /**
- * @category Page
- * @module Page
+ * @category Dev
+ * @module Dev Page
  */
 
 import ASSETS from "./assets";
@@ -36,7 +36,7 @@ const page: React.CSSProperties = {
  * render links to git and docs
  * @category Component
  * @returns
- * >'logos'
+ * >`logos`\
  * >`children`
  */
 export default function Page({ children }: React.PropsWithChildren) {
