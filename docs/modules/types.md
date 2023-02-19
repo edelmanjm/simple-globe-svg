@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/types.d.ts:7](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/types.d.ts#L7)
+[src/types.d.ts:7](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/types.d.ts#L7)

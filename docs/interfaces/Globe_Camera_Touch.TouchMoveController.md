@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:25](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L25)
+[src/components/camera/hooks/touch.ts:25](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L25)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:28](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L28)
+[src/components/camera/hooks/touch.ts:28](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L28)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:29](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L29)
+[src/components/camera/hooks/touch.ts:29](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L29)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:26](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L26)
+[src/components/camera/hooks/touch.ts:26](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L26)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:27](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L27)
+[src/components/camera/hooks/touch.ts:27](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L27)

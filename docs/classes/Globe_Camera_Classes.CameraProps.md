@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[src/components/camera/classes.ts:21](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/classes.ts#L21)
+[src/components/camera/classes.ts:21](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/classes.ts#L21)

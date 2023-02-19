@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[src/components/events/types.ts:43](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/types.ts#L43)
+[src/components/events/types.ts:43](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/types.ts#L43)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[src/components/events/types.ts:42](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/types.ts#L42)
+[src/components/events/types.ts:42](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/types.ts#L42)

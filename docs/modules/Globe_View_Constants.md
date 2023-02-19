@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/components/view/constants.ts:33](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/constants.ts#L33)
+[src/components/view/constants.ts:33](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/constants.ts#L33)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[src/components/view/constants.ts:21](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/constants.ts#L21)
+[src/components/view/constants.ts:21](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/constants.ts#L21)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/components/view/constants.ts:17](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/constants.ts#L17)
+[src/components/view/constants.ts:17](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/constants.ts#L17)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/components/view/constants.ts:29](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/constants.ts#L29)
+[src/components/view/constants.ts:29](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/constants.ts#L29)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/components/view/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/constants.ts#L12)
+[src/components/view/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/constants.ts#L12)
 
 ___
 
@@ -76,4 +76,4 @@ ___
 
 #### Defined in
 
-[src/components/view/constants.ts:25](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/constants.ts#L25)
+[src/components/view/constants.ts:25](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/constants.ts#L25)

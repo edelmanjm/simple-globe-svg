@@ -72,7 +72,7 @@ url fetch response
 
 #### Defined in
 
-[src/components/hooks.ts:90](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L90)
+[src/components/hooks.ts:90](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L90)
 
 ___
 
@@ -106,7 +106,7 @@ condition can be used for avoiding rerenders
 
 #### Defined in
 
-[src/components/hooks.ts:143](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L143)
+[src/components/hooks.ts:143](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L143)
 
 ___
 
@@ -144,7 +144,7 @@ distance between `a` and `b`
 
 #### Defined in
 
-[src/components/hooks.ts:190](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L190)
+[src/components/hooks.ts:190](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L190)
 
 ___
 
@@ -174,7 +174,7 @@ callback to merge props
 
 #### Defined in
 
-[src/components/hooks.ts:175](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L175)
+[src/components/hooks.ts:175](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L175)
 
 ___
 
@@ -200,7 +200,7 @@ event handler
 
 #### Defined in
 
-[src/components/hooks.ts:20](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L20)
+[src/components/hooks.ts:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L20)
 
 ___
 
@@ -241,7 +241,7 @@ url fetch response JSON
 
 #### Defined in
 
-[src/components/hooks.ts:123](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L123)
+[src/components/hooks.ts:123](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L123)
 
 ___
 
@@ -269,7 +269,7 @@ url fetch response
 
 #### Defined in
 
-[src/components/hooks.ts:108](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L108)
+[src/components/hooks.ts:108](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L108)
 
 ___
 
@@ -291,7 +291,7 @@ sets window resize listener
 
 #### Defined in
 
-[src/components/hooks.ts:39](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L39)
+[src/components/hooks.ts:39](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L39)
 
 ___
 
@@ -322,7 +322,7 @@ merge objects
 
 #### Defined in
 
-[src/components/hooks.ts:156](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L156)
+[src/components/hooks.ts:156](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L156)
 
 ___
 
@@ -346,7 +346,7 @@ boolean state handler
 
 #### Defined in
 
-[src/components/hooks.ts:49](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L49)
+[src/components/hooks.ts:49](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L49)
 
 ___
 
@@ -382,4 +382,4 @@ multi-state handler: [states, dispatchToAll]
 
 #### Defined in
 
-[src/components/hooks.ts:73](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/hooks.ts#L73)
+[src/components/hooks.ts:73](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/hooks.ts#L73)

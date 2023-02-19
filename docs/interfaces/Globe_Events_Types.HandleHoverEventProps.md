@@ -28,7 +28,7 @@ can be set to easily handle `onMouseEnter` and `onMouseLeave` events
 
 #### Defined in
 
-[src/components/events/types.ts:23](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/types.ts#L23)
+[src/components/events/types.ts:23](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/types.ts#L23)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[src/components/events/types.ts:24](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/events/types.ts#L24)
+[src/components/events/types.ts:24](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/types.ts#L24)

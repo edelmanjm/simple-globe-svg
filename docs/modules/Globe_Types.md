@@ -46,7 +46,7 @@ define deep partial types
 
 #### Defined in
 
-[src/components/types.ts:43](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L43)
+[src/components/types.ts:43](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L43)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/components/types.ts:18](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L18)
+[src/components/types.ts:18](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L18)
 
 ___
 
@@ -82,4 +82,4 @@ returned by useStates
 
 #### Defined in
 
-[src/components/types.ts:24](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/types.ts#L24)
+[src/components/types.ts:24](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L24)

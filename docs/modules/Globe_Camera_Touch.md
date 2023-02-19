@@ -39,7 +39,7 @@ todo docs
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:142](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L142)
+[src/components/camera/hooks/touch.ts:142](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L142)
 
 ___
 
@@ -62,7 +62,7 @@ listen `index` screen touch movement
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:41](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L41)
+[src/components/camera/hooks/touch.ts:41](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L41)
 
 ___
 
@@ -78,4 +78,4 @@ todo docs
 
 #### Defined in
 
-[src/components/camera/hooks/touch.ts:111](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/touch.ts#L111)
+[src/components/camera/hooks/touch.ts:111](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/touch.ts#L111)

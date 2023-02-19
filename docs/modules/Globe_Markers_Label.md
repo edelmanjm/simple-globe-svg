@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[src/components/markers/Label.tsx:15](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/Label.tsx#L15)
+[src/components/markers/Label.tsx:15](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/Label.tsx#L15)

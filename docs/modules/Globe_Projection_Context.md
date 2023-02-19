@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/components/projection/Context.ts:35](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/projection/Context.ts#L35)
+[src/components/projection/Context.ts:35](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L35)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/components/projection/Context.ts:30](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/projection/Context.ts#L30)
+[src/components/projection/Context.ts:30](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L30)

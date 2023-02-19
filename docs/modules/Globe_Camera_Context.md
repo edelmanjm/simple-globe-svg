@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/components/camera/Context.tsx:29](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/Context.tsx#L29)
+[src/components/camera/Context.tsx:29](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/Context.tsx#L29)
 
 ## Context Functions
 
@@ -48,4 +48,4 @@ provides [CameraContextValue](../classes/Globe_Camera_Context.CameraContextValue
 
 #### Defined in
 
-[src/components/camera/Context.tsx:38](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/Context.tsx#L38)
+[src/components/camera/Context.tsx:38](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/Context.tsx#L38)

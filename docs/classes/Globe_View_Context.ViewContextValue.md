@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/components/view/Context.tsx:13](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/Context.tsx#L13)
+[src/components/view/Context.tsx:13](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/Context.tsx#L13)
 
 ___
 
@@ -39,4 +39,4 @@ ___
 
 #### Defined in
 
-[src/components/view/Context.tsx:12](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/Context.tsx#L12)
+[src/components/view/Context.tsx:12](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/Context.tsx#L12)

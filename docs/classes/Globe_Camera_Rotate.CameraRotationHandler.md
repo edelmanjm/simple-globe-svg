@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:31](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L31)
+[src/components/camera/hooks/rotate.ts:31](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/rotate.ts#L31)
 
 ## Properties
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:36](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L36)
+[src/components/camera/hooks/rotate.ts:36](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/rotate.ts#L36)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:34](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L34)
+[src/components/camera/hooks/rotate.ts:34](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/rotate.ts#L34)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:35](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L35)
+[src/components/camera/hooks/rotate.ts:35](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/rotate.ts#L35)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:32](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L32)
+[src/components/camera/hooks/rotate.ts:32](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/rotate.ts#L32)
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/rotate.ts:33](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/rotate.ts#L33)
+[src/components/camera/hooks/rotate.ts:33](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/rotate.ts#L33)

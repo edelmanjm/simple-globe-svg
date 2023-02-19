@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[src/components/cartography/hooks.tsx:34](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/hooks.tsx#L34)
+[src/components/cartography/hooks.tsx:34](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/hooks.tsx#L34)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[src/components/cartography/hooks.tsx:35](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/hooks.tsx#L35)
+[src/components/cartography/hooks.tsx:35](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/hooks.tsx#L35)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/components/cartography/hooks.tsx:36](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/hooks.tsx#L36)
+[src/components/cartography/hooks.tsx:36](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/hooks.tsx#L36)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[src/components/cartography/hooks.tsx:33](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/hooks.tsx#L33)
+[src/components/cartography/hooks.tsx:33](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/hooks.tsx#L33)

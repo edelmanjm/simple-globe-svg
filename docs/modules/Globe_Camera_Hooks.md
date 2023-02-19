@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[src/components/camera/hooks/index.ts:16](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/index.ts#L16)
+[src/components/camera/hooks/index.ts:16](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/index.ts#L16)
 
 ___
 
@@ -46,7 +46,7 @@ needed?
 
 #### Defined in
 
-[src/components/camera/hooks/index.ts:22](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/index.ts#L22)
+[src/components/camera/hooks/index.ts:22](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/index.ts#L22)
 
 ___
 
@@ -76,7 +76,7 @@ distance between camera center and coord
 
 #### Defined in
 
-[src/components/camera/hooks/index.ts:51](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/index.ts#L51)
+[src/components/camera/hooks/index.ts:51](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/index.ts#L51)
 
 ___
 
@@ -107,4 +107,4 @@ distance between camera center and coord
 
 #### Defined in
 
-[src/components/camera/hooks/index.ts:33](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/camera/hooks/index.ts#L33)
+[src/components/camera/hooks/index.ts:33](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/index.ts#L33)

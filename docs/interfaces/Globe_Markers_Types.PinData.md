@@ -20,4 +20,4 @@ svg props overrides theme
 
 #### Defined in
 
-[src/components/markers/types.ts:32](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L32)
+[src/components/markers/types.ts:32](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/types.ts#L32)

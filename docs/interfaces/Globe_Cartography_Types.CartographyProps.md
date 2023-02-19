@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/components/cartography/types.ts:32](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/types.ts#L32)
+[src/components/cartography/types.ts:32](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/types.ts#L32)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/components/cartography/types.ts:31](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/cartography/types.ts#L31)
+[src/components/cartography/types.ts:31](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/types.ts#L31)

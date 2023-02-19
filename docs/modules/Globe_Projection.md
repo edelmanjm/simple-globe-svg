@@ -35,4 +35,4 @@ provides D3 projected path
 
 #### Defined in
 
-[src/components/projection/index.tsx:19](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/projection/index.tsx#L19)
+[src/components/projection/index.tsx:19](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/index.tsx#L19)

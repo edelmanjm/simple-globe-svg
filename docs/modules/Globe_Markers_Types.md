@@ -38,7 +38,7 @@ list of pin shape names
 
 #### Defined in
 
-[src/components/markers/types.ts:21](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L21)
+[src/components/markers/types.ts:21](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/types.ts#L21)
 
 ___
 
@@ -58,7 +58,7 @@ svg attributes forward
 
 #### Defined in
 
-[src/components/markers/types.ts:39](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L39)
+[src/components/markers/types.ts:39](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/types.ts#L39)
 
 ___
 
@@ -76,4 +76,4 @@ svg attributes forward
 
 #### Defined in
 
-[src/components/markers/types.ts:26](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/markers/types.ts#L26)
+[src/components/markers/types.ts:26](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/types.ts#L26)

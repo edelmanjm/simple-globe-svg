@@ -30,4 +30,4 @@ null
 
 #### Defined in
 
-[src/components/view/FetchOnWindowResize.tsx:20](https://github.com/Gaushao/d3-react-globe/blob/636f719/src/components/view/FetchOnWindowResize.tsx#L20)
+[src/components/view/FetchOnWindowResize.tsx:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/FetchOnWindowResize.tsx#L20)
