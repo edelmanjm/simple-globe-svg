@@ -22,9 +22,9 @@ setup development props into [Globe](Globe.md)
 
 `Element`
 
->`div`
+>[Page](Page.md)
 >>[Globe](Globe.md)
 
 #### Defined in
 
-[src/App.tsx:70](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/App.tsx#L70)
+[src/App.tsx:25](https://github.com/Gaushao/d3-react-globe/blob/d269768/src/App.tsx#L25)

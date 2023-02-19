@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Core Modules
+
+- [Assets SVGs](modules/Assets_SVGs.md)
+
 ### Dev Modules
 
 - [Dev App](modules/Dev_App.md)
@@ -55,6 +59,12 @@
 - [Globe View FetchOnWindowResize](modules/Globe_View_FetchOnWindowResize.md)
 - [Globe View Hooks](modules/Globe_View_Hooks.md)
 
+### Page Modules
+
+- [Page](modules/Page.md)
+
 ### Other Modules
 
+- [constants](modules/constants.md)
 - [index](modules/index.md)
+- [types](modules/types.md)

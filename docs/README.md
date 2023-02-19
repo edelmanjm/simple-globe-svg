@@ -3,30 +3,14 @@ React Simple Globe / [Exports](modules.md)
 ### Try
 
 - [Live](https://gaushao.github.io/d3-react-globe/)
-
-### Node 14
-
-```
-$ node -v
-v14.21.1
-```
+- [Docs](https://gaushao.github.io/d3-react-globe/docs)
+- [DocsMD](https://github.com/Gaushao/d3-react-globe/tree/main/docs)
 
 ### Install
 
 ```
 $ npm i -g yarn
 $ yarn
-```
-
-### Add Missing Third-Part Declarations
-
-at `src/react-app-env.d.ts`
-
-```
-declare module 'library-name' {
-    ...
-}
-
 ```
 
 ### Dev
@@ -73,14 +57,6 @@ $ yarn build
 $ http-server build
 ```
 
-#### publish: prepare
-
-runs `npx tsc --build src/components/globe/`, config can be set into `src/components/globe/tsconfig.json`
-
-```
-$ yarn prepare
-```
-
 #### build: docs
 
 _HTML_
@@ -96,12 +72,15 @@ _MD_
 $ yarn docsmd
 ```
 
-#### push: docs
+### Add Missing Third-Part Declarations
 
-will build md docs and push into master by running `pushdocsmd.sh`
+at `src/react-app-env.d.ts`
 
 ```
-$ yarn pushdocsmd
+declare module 'library-name' {
+    ...
+}
+
 ```
 
 ## Learn More
