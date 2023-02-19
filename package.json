@@ -2,15 +2,18 @@
   "name": "d3-react-globe",
   "version": "0.0.1",
   "description": "D3 svg globe rendered by ReactJS loaded from geojson/topojson",
+  "homepage": "https://gaushao.github.io/d3-react-globe",
   "author": {
     "name": "Jayme Santos",
     "email": "jimiaspampa@gmail.com"
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "docs": "typedoc",
     "docsmd": "typedoc --plugin typedoc-plugin-markdown --out docs",
-    "devdocs": "typedoc --watch ."
+    "devdocs": "typedoc --watch .",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "d3": "^7.0.0",
@@ -26,6 +29,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.10",
     "@types/topojson-client": "^3.1.1",
+    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1",
     "typescript": "^4.9.5"
   },
