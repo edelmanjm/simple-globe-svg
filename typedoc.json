@@ -1,0 +1,7 @@
+{
+  "name": "React Simple Globe",
+  "entryPoints": ["src"],
+  "entryPointStrategy": "expand",
+  "categoryOrder": ["*", "Other"],
+  "out": "build/docs"
+}
