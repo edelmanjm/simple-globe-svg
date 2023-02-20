@@ -24,7 +24,7 @@ MouseEventHandler
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:21](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L21)
+[src/components/camera/hooks/mouse.ts:21](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L21)
 
 ### OnMouseStopEvent
 

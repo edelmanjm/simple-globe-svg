@@ -42,4 +42,4 @@ if `hasSupportedHover` nest OnHover
 
 #### Defined in
 
-[src/components/events/index.tsx:26](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/index.tsx#L26)
+[src/components/events/index.tsx:26](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/events/index.tsx#L26)

@@ -27,4 +27,4 @@ setup development props into [Globe](Globe.md)
 
 #### Defined in
 
-[src/App.tsx:25](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/App.tsx#L25)
+[src/App.tsx:25](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/App.tsx#L25)

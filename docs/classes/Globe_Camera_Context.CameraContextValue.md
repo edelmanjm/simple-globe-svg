@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/components/camera/Context.tsx:17](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/Context.tsx#L17)
+[src/components/camera/Context.tsx:17](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/Context.tsx#L17)
 
 ## Properties
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[src/components/camera/Context.tsx:18](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/Context.tsx#L18)
+[src/components/camera/Context.tsx:18](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/Context.tsx#L18)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/Context.tsx:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/Context.tsx#L20)
+[src/components/camera/Context.tsx:20](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/Context.tsx#L20)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/Context.tsx:19](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/Context.tsx#L19)
+[src/components/camera/Context.tsx:19](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/Context.tsx#L19)

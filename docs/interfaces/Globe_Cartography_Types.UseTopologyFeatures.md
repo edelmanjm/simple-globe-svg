@@ -22,4 +22,4 @@
 
 #### Defined in
 
-[src/components/cartography/types.ts:54](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/types.ts#L54)
+[src/components/cartography/types.ts:54](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/cartography/types.ts#L54)

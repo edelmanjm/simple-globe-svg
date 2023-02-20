@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:34](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L34)
+[src/components/camera/hooks/mouse.ts:34](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L34)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:35](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L35)
+[src/components/camera/hooks/mouse.ts:35](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L35)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:32](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L32)
+[src/components/camera/hooks/mouse.ts:32](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L32)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:33](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L33)
+[src/components/camera/hooks/mouse.ts:33](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L33)

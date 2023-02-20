@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[src/components/projection/Context.ts:19](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L19)
+[src/components/projection/Context.ts:19](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/projection/Context.ts#L19)
 
 ## Properties
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[src/components/projection/Context.ts:21](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L21)
+[src/components/projection/Context.ts:21](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/projection/Context.ts#L21)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/components/projection/Context.ts:23](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L23)
+[src/components/projection/Context.ts:23](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/projection/Context.ts#L23)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/components/projection/Context.ts:22](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L22)
+[src/components/projection/Context.ts:22](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/projection/Context.ts#L22)
 
 ___
 
@@ -76,4 +76,4 @@ ___
 
 #### Defined in
 
-[src/components/projection/Context.ts:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/projection/Context.ts#L20)
+[src/components/projection/Context.ts:20](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/projection/Context.ts#L20)

@@ -94,7 +94,7 @@ Array&lt;Point\&gt;.constructor
 
 #### Defined in
 
-[src/components/classes.ts:45](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L45)
+[src/components/classes.ts:45](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L45)
 
 ## Properties
 
@@ -104,7 +104,7 @@ Array&lt;Point\&gt;.constructor
 
 #### Defined in
 
-[src/components/classes.ts:41](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L41)
+[src/components/classes.ts:41](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L41)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:43](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L43)
+[src/components/classes.ts:43](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L43)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:45](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L45)
+[src/components/classes.ts:45](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L45)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:45](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L45)
+[src/components/classes.ts:45](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L45)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:44](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L44)
+[src/components/classes.ts:44](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L44)
 
 ## Methods
 
@@ -1239,7 +1239,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:50](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L50)
+[src/components/classes.ts:50](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L50)
 
 ___
 

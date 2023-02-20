@@ -45,7 +45,7 @@ deal with camera mouse events
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:82](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L82)
+[src/components/camera/hooks/mouse.ts:82](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L82)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:41](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L41)
+[src/components/camera/hooks/mouse.ts:41](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L41)
 
 ___
 
@@ -85,4 +85,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/hooks/mouse.ts:68](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/hooks/mouse.ts#L68)
+[src/components/camera/hooks/mouse.ts:68](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/hooks/mouse.ts#L68)

@@ -31,4 +31,4 @@ SVGPathElement drawing ProjectionContextValue.path of `GeoJSON.Feature`
 
 #### Defined in
 
-[src/components/cartography/Path.tsx:23](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/cartography/Path.tsx#L23)
+[src/components/cartography/Path.tsx:23](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/cartography/Path.tsx#L23)

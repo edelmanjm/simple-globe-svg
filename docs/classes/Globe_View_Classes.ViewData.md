@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/components/view/classes.ts:15](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/classes.ts#L15)
+[src/components/view/classes.ts:15](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/view/classes.ts#L15)
 
 ## Properties
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/components/view/classes.ts:16](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/classes.ts#L16)
+[src/components/view/classes.ts:16](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/view/classes.ts#L16)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/components/view/classes.ts:19](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/classes.ts#L19)
+[src/components/view/classes.ts:19](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/view/classes.ts#L19)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/components/view/classes.ts:17](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/classes.ts#L17)
+[src/components/view/classes.ts:17](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/view/classes.ts#L17)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 #### Defined in
 
-[src/components/view/classes.ts:18](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/view/classes.ts#L18)
+[src/components/view/classes.ts:18](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/view/classes.ts#L18)

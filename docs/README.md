@@ -74,7 +74,7 @@ $ yarn docsmd
 
 ### Add Missing Third-Part Declarations
 
-at `src/react-app-env.d.ts`
+at `src/types.d.ts`
 
 ```
 declare module 'library-name' {

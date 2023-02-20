@@ -40,7 +40,7 @@ injected through callback
 
 #### Defined in
 
-[src/components/events/types.ts:14](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/types.ts#L14)
+[src/components/events/types.ts:14](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/events/types.ts#L14)
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 #### Defined in
 
-[src/components/events/types.ts:15](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/types.ts#L15)
+[src/components/events/types.ts:15](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/events/types.ts#L15)

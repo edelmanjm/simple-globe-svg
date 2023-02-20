@@ -32,4 +32,4 @@ mapped markers into Marker
 
 #### Defined in
 
-[src/components/markers/index.tsx:25](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/index.tsx#L25)
+[src/components/markers/index.tsx:25](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/markers/index.tsx#L25)

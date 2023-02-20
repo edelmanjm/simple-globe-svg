@@ -95,7 +95,7 @@ longitude
 
 #### Defined in
 
-[src/components/classes.ts:85](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L85)
+[src/components/classes.ts:85](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L85)
 
 ## Properties
 
@@ -109,7 +109,7 @@ longitude
 
 #### Defined in
 
-[src/components/classes.ts:17](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L17)
+[src/components/classes.ts:17](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L17)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:19](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L19)
+[src/components/classes.ts:19](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L19)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:85](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L85)
+[src/components/classes.ts:85](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L85)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:85](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L85)
+[src/components/classes.ts:85](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L85)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L20)
+[src/components/classes.ts:20](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L20)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L20)
+[src/components/classes.ts:20](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L20)
 
 ___
 
@@ -1255,7 +1255,7 @@ ___
 
 #### Defined in
 
-[src/components/classes.ts:25](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/classes.ts#L25)
+[src/components/classes.ts:25](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/classes.ts#L25)
 
 ___
 

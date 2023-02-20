@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[src/components/constants.ts:40](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L40)
+[src/components/constants.ts:40](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L40)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[src/components/constants.ts:31](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L31)
+[src/components/constants.ts:31](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L31)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/components/constants.ts:35](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L35)
+[src/components/constants.ts:35](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L35)
 
 ___
 
@@ -59,7 +59,7 @@ used as initial value for MutableState
 
 #### Defined in
 
-[src/components/constants.ts:21](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L21)
+[src/components/constants.ts:21](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L21)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[src/components/constants.ts:45](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L45)
+[src/components/constants.ts:45](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L45)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/components/constants.ts:26](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L26)
+[src/components/constants.ts:26](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L26)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[src/components/constants.ts:50](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/constants.ts#L50)
+[src/components/constants.ts:50](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/constants.ts#L50)
 
 ## Empty Functions
 

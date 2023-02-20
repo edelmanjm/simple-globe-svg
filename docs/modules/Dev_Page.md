@@ -33,4 +33,4 @@ render links to git and docs
 
 #### Defined in
 
-[src/Page.tsx:42](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/Page.tsx#L42)
+[src/Page.tsx:42](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/Page.tsx#L42)

@@ -23,7 +23,7 @@ boolean state
 
 #### Defined in
 
-[src/components/types.ts:31](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L31)
+[src/components/types.ts:31](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/types.ts#L31)
 
 ___
 
@@ -43,7 +43,7 @@ sets bool to false
 
 #### Defined in
 
-[src/components/types.ts:35](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L35)
+[src/components/types.ts:35](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/types.ts#L35)
 
 ___
 
@@ -63,7 +63,7 @@ sets bool to !bool
 
 #### Defined in
 
-[src/components/types.ts:37](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L37)
+[src/components/types.ts:37](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/types.ts#L37)
 
 ___
 
@@ -83,4 +83,4 @@ sets bool to true
 
 #### Defined in
 
-[src/components/types.ts:33](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/types.ts#L33)
+[src/components/types.ts:33](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/types.ts#L33)

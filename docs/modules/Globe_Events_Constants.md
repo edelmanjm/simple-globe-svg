@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/components/events/constants.ts:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/constants.ts#L20)
+[src/components/events/constants.ts:20](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/events/constants.ts#L20)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 #### Defined in
 
-[src/components/events/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/events/constants.ts#L12)
+[src/components/events/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/events/constants.ts#L12)

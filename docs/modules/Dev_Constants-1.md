@@ -36,4 +36,4 @@ initial props
 
 #### Defined in
 
-[src/constants.ts:55](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/constants.ts#L55)
+[src/constants.ts:55](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/constants.ts#L55)

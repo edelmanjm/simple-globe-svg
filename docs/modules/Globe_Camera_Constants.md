@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/components/camera/constants.ts:29](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L29)
+[src/components/camera/constants.ts:29](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L29)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/constants.ts:19](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L19)
+[src/components/camera/constants.ts:19](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L19)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/constants.ts:10](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L10)
+[src/components/camera/constants.ts:10](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L10)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/constants.ts:11](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L11)
+[src/components/camera/constants.ts:11](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L11)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L12)
+[src/components/camera/constants.ts:12](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L12)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/components/camera/constants.ts:14](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L14)
+[src/components/camera/constants.ts:14](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L14)
 
 ___
 
@@ -101,4 +101,4 @@ ___
 
 #### Defined in
 
-[src/components/camera/constants.ts:13](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/camera/constants.ts#L13)
+[src/components/camera/constants.ts:13](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/camera/constants.ts#L13)

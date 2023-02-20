@@ -45,7 +45,7 @@ PinShape Component switched from PinData.shape
 
 #### Defined in
 
-[src/components/markers/Pin.tsx:49](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/Pin.tsx#L49)
+[src/components/markers/Pin.tsx:49](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/markers/Pin.tsx#L49)
 
 ___
 
@@ -71,7 +71,7 @@ SVGCircleElement
 
 #### Defined in
 
-[src/components/markers/Pin.tsx:40](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/Pin.tsx#L40)
+[src/components/markers/Pin.tsx:40](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/markers/Pin.tsx#L40)
 
 ___
 
@@ -100,4 +100,4 @@ SVGElement
 
 #### Defined in
 
-[src/components/markers/Pin.tsx:20](https://github.com/Gaushao/d3-react-globe/blob/4f7a1a2/src/components/markers/Pin.tsx#L20)
+[src/components/markers/Pin.tsx:20](https://github.com/Gaushao/d3-react-globe/blob/0a8a5c1/src/components/markers/Pin.tsx#L20)
