@@ -5,7 +5,7 @@
  */
 
 import { useState } from "react";
-import Globe from "./components";
+import Globe from "../components";
 import Page from "./Page";
 import CONST from "./constants";
 

@@ -4,8 +4,8 @@
  * @module Dev Constants
  */
 
-import { Coord } from "./components/classes";
-import { EMPTY_VIEW_DATA } from "./components/view/constants";
+import { Coord } from "../components/classes";
+import { EMPTY_VIEW_DATA } from "../components/view/constants";
 
 const VIEW_PROPS = {
   ...EMPTY_VIEW_DATA,

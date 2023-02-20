@@ -39,7 +39,7 @@ const page: React.CSSProperties = {
  * >`logos`\
  * >`children`
  */
-export default function Page({ children }: React.PropsWithChildren) {
+export default function Page({ children }: React.PropsWithChildren<{}>) {
   return (
     <>
       <div style={page}>
