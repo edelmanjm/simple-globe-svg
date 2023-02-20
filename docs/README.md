@@ -55,7 +55,12 @@ for building local remove homepage from package.json
 
 ```
 $ yarn build
-$ http-server build
+```
+
+#### build: module
+
+```
+yarn prepare
 ```
 
 #### build: docs
@@ -64,7 +69,6 @@ _HTML_
 
 ```
 $ yarn docs
-$ serve -s build/docs
 ```
 
 _MD_
@@ -81,12 +85,17 @@ $ yarn docsmd
 npm run publish
 ```
 
-#### gh pages deploy
+#### gh-pages deploy
 
 ```
-yarn build
-yarn docs
 yarn deploy
+```
+
+### Permissions
+
+```
+chmod +x ./deploy/.sh
+chmod +x ./publish/.sh
 ```
 
 ### Add Missing Third-Part Declarations
