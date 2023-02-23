@@ -12,7 +12,7 @@ import { Topology } from "./Topology";
 import { CartographyProps } from "./types";
 import Path from "./Path";
 import { EMPTY_MUTABLE_STATE } from "../constants";
-import { CartographyUrl } from "./constants";
+import { CartographyUrl, EMPTY_CARTOGRAPHY_DATA } from "./constants";
 
 function Switch({
   json,
@@ -44,10 +44,10 @@ const URLS = [Object.values(CartographyUrl)[1]];
  * [[Topology]] | `null`
  */
 export function Cartography({
-  settings = [{}, noop],
+  settings = EMPTY_CARTOGRAPHY_DATA,
   geo,
 }: PropsWithChildren<CartographyProps>): JSX.Element | null {
-  const [{ urls = URLS, jsons = [] }] = settings;
+  const { urls = URLS, jsons = [] } = settings;
   const [data, setData] = useState(jsons);
   const load = useCallback((j: JSON) => {
     setData((curr) => [...curr, j]);

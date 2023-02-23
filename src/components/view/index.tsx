@@ -11,12 +11,15 @@ import {
   useCallback,
 } from "react";
 import { ViewProvider } from "./Context";
-import { INITIAL_DIMENSIONS, INITIAL_SCALE } from "./constants";
+import {
+  EMPTY_VIEW_DATA,
+  INITIAL_DIMENSIONS,
+  INITIAL_SCALE,
+} from "./constants";
 import { useEffectOnChange, useStates } from "../hooks";
 import FetchOnWindowResize from "./FetchOnWindowResize";
 import { ViewProps } from "./classes";
 import { Point } from "../classes";
-import { EMPTY_MUTABLE_STATE } from "../constants";
 import React from "react";
 
 /**
@@ -27,13 +30,11 @@ import React from "react";
  */
 export const View = ({
   children,
-  settings = EMPTY_MUTABLE_STATE,
+  settings = EMPTY_VIEW_DATA,
 }: PropsWithChildren<ViewProps>) => {
-  const data = settings[0];
-  const controller = settings[1];
-  const initialW = data?.dimensions?.[0];
-  const initialH = data?.dimensions?.[1];
+  const [data, controller] = useState(settings);
   const dimensions = useStates(data?.dimensions || INITIAL_DIMENSIONS);
+  const [initialW, initialH] = data?.dimensions;
   const [[[w, setW], [h, setH]], dispatch] = dimensions;
   // update settings data avoiding rerenders
   const changed = useMemo(

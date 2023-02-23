@@ -26,9 +26,7 @@ function App() {
   return (
     <Page>
       <Globe
-        settings={{
-          view: useState(CONST.VIEW_PROPS),
-        }}
+        settings={CONST.VIEW_PROPS}
         geo={CONST.GEO_PROPS}
         markers={CONST.MARKERS}
       />

@@ -8,9 +8,11 @@ import { Coord } from "../components/classes";
 import { EMPTY_VIEW_DATA } from "../components/view/constants";
 
 const VIEW_PROPS = {
-  ...EMPTY_VIEW_DATA,
-  target: document.body as HTMLElement | null,
-  fetchToTarget: true,
+  view: {
+    ...EMPTY_VIEW_DATA,
+    target: document.body as HTMLElement | null,
+    fetchToTarget: true,
+  },
 };
 
 const GEO_PROPS = {

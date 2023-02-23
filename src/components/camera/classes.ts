@@ -3,9 +3,8 @@
  * @module Globe Camera Classes
  */
 
-import { Coord } from '../classes'
-import { EMPTY_COORD } from '../constants'
-import { MutableState } from '../types'
+import { Coord } from "../classes";
+import { EMPTY_COORD } from "../constants";
 
 /**
  * @category Data
@@ -18,5 +17,5 @@ export class CameraData {
  * @category Props
  */
 export class CameraProps {
-  settings?: MutableState<CameraData>
+  settings?: CameraData;
 }

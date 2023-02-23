@@ -4,7 +4,7 @@
  * @module Globe Camera Rotate
  */
 
-import { useCallback, useMemo, useEffect } from "react";
+import { useCallback, useMemo, useEffect, useState } from "react";
 import { noop } from "lodash";
 
 import { useEffectOnChange, useStates } from "../../hooks";
@@ -15,6 +15,7 @@ import { ROTATION_SENSITIVITY, ROTATION_Y_LIMIT } from "../constants";
 import { Coord } from "../../classes";
 import { MutableState } from "../../types";
 import { CameraProps } from "../classes";
+import { EMPTY_CAMERA_DATA } from "../constants";
 
 function limitY(delta: number) {
   return (from: number) => limit(from, from - delta, ROTATION_Y_LIMIT);
@@ -47,14 +48,14 @@ export const CAMERA_ROTATION_HANDLER = new CameraRotationHandler();
  * @param settings can be loaded from outside module into [[CameraProps]]
  */
 export function useCameraRotationHandler(
-  settings: CameraProps["settings"] = [{ rotation: new Coord() }, noop]
+  settings: CameraProps["settings"] = EMPTY_CAMERA_DATA
 ): CameraRotationHandler {
   const [
     {
       rotation: [initialX, initialY],
     },
     controller,
-  ] = settings;
+  ] = useState(settings);
   const [scale] = useViewScaling();
   const rotation = useStates([initialX, initialY]);
   const [
