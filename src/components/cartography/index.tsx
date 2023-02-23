@@ -4,14 +4,13 @@
  * @module Globe Cartography
  */
 import React from "react";
-import { get, noop, uniqueId } from "lodash";
+import { uniqueId } from "lodash";
 import { PropsWithChildren, useCallback, useState } from "react";
 import { useEffectOnChange, useFetchJSON } from "../hooks";
 
 import { Topology } from "./Topology";
 import { CartographyProps } from "./types";
 import Path from "./Path";
-import { EMPTY_MUTABLE_STATE } from "../constants";
 import { CartographyUrl, EMPTY_CARTOGRAPHY_DATA } from "./constants";
 
 function Switch({
