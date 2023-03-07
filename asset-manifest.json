@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/d3-react-globe/static/js/main.2120b99f.js",
+    "main.js": "/d3-react-globe/static/js/main.346cf1ac.js",
     "static/media/gitlab.svg": "/d3-react-globe/static/media/gitlab.c1d5e8de261d772f97906bf0c803aab4.svg",
     "static/media/book.svg": "/d3-react-globe/static/media/book.7f28970eccc961e993da3e4ccf896c4a.svg",
     "index.html": "/d3-react-globe/index.html",
-    "main.2120b99f.js.map": "/d3-react-globe/static/js/main.2120b99f.js.map"
+    "main.346cf1ac.js.map": "/d3-react-globe/static/js/main.346cf1ac.js.map"
   },
   "entrypoints": [
-    "static/js/main.2120b99f.js"
+    "static/js/main.346cf1ac.js"
   ]
 }
