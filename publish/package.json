@@ -1,14 +1,14 @@
 {
-  "name": "@jaymesantos/d3-react-globe",
-  "version": "0.0.5",
+  "name": "d3-react-globe",
+  "version": "0.0.7",
   "description": "D3 svg globe rendered by ReactJS loaded from geojson/topojson",
-  "author": "Jayme Santos <jimiaspampa@gmail.com> (https://github.com/Gaushao/)",
+  "author": "Jayme Santos <jimiaspampa@gmail.com> (https://github.com/gaushao/)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gaushao/d3-react-globe.git"
+    "url": "git+https://github.com/gaushao/d3-react-globe.git"
   },
   "dependencies": {
     "d3": "^7.0.0",
@@ -35,9 +35,10 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/Gaushao/d3-react-globe/issues"
+    "url": "https://github.com/gaushao/d3-react-globe/issues"
   },
-  "homepage": "https://github.com/Gaushao/d3-react-globe#readme",
+  "type": "module",
+  "homepage": "https://github.com/gaushao/d3-react-globe#readme",
   "main": "index.js",
   "license": "ISC"
 }

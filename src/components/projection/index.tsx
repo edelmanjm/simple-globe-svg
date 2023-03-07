@@ -3,12 +3,12 @@
  * @category Globe
  * @module Globe Projection
  */
-import React, { useMemo } from 'react'
-import { geoPath, geoOrthographic } from 'd3-geo'
-import { useViewContext } from '../view/hooks'
-import { useCameraContext } from '../camera/hooks'
-import { ProjectionContext } from './Context'
-import { EMPTY_AXLE } from '../constants'
+import React, { useMemo } from "react";
+import { geoPath, geoOrthographic } from "d3-geo";
+import { useViewContext } from "../view/hooks";
+import { useCameraContext } from "../camera/hooks/index";
+import { ProjectionContext } from "./Context";
+import { EMPTY_AXLE } from "../constants";
 
 /**
  * provides D3 projected path
@@ -22,13 +22,13 @@ export const Projection = ({
   const {
     dimensions: [[[width], [height]]],
     scaling: [scale],
-  } = useViewContext()
+  } = useViewContext();
   const {
     rotation: {
       x: [rX],
       y: [rY],
     },
-  } = useCameraContext()
+  } = useCameraContext();
   const projection = useMemo(
     () =>
       geoOrthographic()
@@ -37,8 +37,8 @@ export const Projection = ({
         .rotate([rX, rY])
         .translate([width / 2, height / 2]),
     [height, rX, rY, scale, width]
-  )
-  const path = useMemo(() => geoPath().projection(projection), [projection])
+  );
+  const path = useMemo(() => geoPath().projection(projection), [projection]);
   return (
     <ProjectionContext.Provider
       value={{
@@ -52,5 +52,5 @@ export const Projection = ({
         {children}
       </svg>
     </ProjectionContext.Provider>
-  )
-}
+  );
+};

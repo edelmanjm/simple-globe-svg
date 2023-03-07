@@ -2,14 +2,14 @@
  * @category Globe
  * @module Globe Markers Marker
  */
-import React from 'react'
-import { PropsWithChildren, useMemo } from 'react'
-import { useProjectionContext } from '../projection/hooks'
-import { useCameraCenterDistance } from '../camera/hooks'
-import { MarkerData } from './types'
-import Pin from './Pin'
-import Label from './Label'
-import Events from '../events'
+import React from "react";
+import { PropsWithChildren, useMemo } from "react";
+import { useProjectionContext } from "../projection/hooks";
+import { useCameraCenterDistance } from "../camera/hooks/index";
+import { MarkerData } from "./types";
+import Pin from "./Pin";
+import Label from "./Label";
+import Events from "../events/index";
 
 /**
  * @category Component
@@ -21,7 +21,7 @@ function LabeledPin({ svg: Svg, ...props }: PropsWithChildren<MarkerData>) {
       {Svg ? <Svg {...props} /> : <Pin {...props} />}
       <Label {...props} />
     </>
-  )
+  );
 }
 
 /**
@@ -35,9 +35,9 @@ function LabeledPin({ svg: Svg, ...props }: PropsWithChildren<MarkerData>) {
  * @return render if there are coords and is `inCameraRange`
  */
 export function Marker(props: PropsWithChildren<MarkerData>) {
-  const { projection } = useProjectionContext()
-  const distance = useCameraCenterDistance()
-  const { id, pin, label, coordinates } = props
+  const { projection } = useProjectionContext();
+  const distance = useCameraCenterDistance();
+  const { id, pin, label, coordinates } = props;
   const forward = useMemo(
     () => ({
       globeMarkerData: {
@@ -48,20 +48,20 @@ export function Marker(props: PropsWithChildren<MarkerData>) {
       },
     }),
     [coordinates, id, label, pin]
-  )
+  );
 
-  if (!projection) return null
+  if (!projection) return null;
 
-  const projected = projection(props.coordinates.toArray())
-  if (!projected) return null
-  const [x, y] = projected
+  const projected = projection(props.coordinates.toArray());
+  if (!projected) return null;
+  const [x, y] = projected;
 
-  const inCameraRange = distance(props.coordinates) <= 90
+  const inCameraRange = distance(props.coordinates) <= 90;
 
-  if (!inCameraRange) return null
+  if (!inCameraRange) return null;
   return (
     <Events props={props.props || {}} forward={forward}>
       <g transform={`translate(${x}, ${y})`}>{<LabeledPin {...props} />}</g>
     </Events>
-  )
+  );
 }

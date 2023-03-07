@@ -4,7 +4,7 @@
  * @module Globe Cartography
  */
 import React from "react";
-import { uniqueId } from "lodash";
+import uniqueId from "lodash/uniqueId.js";
 import { PropsWithChildren, useCallback, useState } from "react";
 import { useEffectOnChange, useFetchJSON } from "../hooks";
 

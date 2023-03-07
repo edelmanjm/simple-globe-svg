@@ -2,13 +2,13 @@
  * @category Globe
  * @module Globe
  */
-import { Projection } from './projection'
-import { Camera } from './camera'
-import { Markers } from './markers'
-import { View } from './view'
-import { Cartography } from './cartography'
-import { GlobeProps } from './types'
-import React from 'react'
+import { Projection } from "./projection/index";
+import { Camera } from "./camera/index";
+import { Markers } from "./markers/index";
+import { View } from "./view/index";
+import { Cartography } from "./cartography/index";
+import { GlobeProps } from "./types";
+import React from "react";
 
 /**
  * wraps every context around svg elements
@@ -41,7 +41,7 @@ function Globe({
         </Projection>
       </Camera>
     </View>
-  )
+  );
 }
 
-export default Globe
+export default Globe;

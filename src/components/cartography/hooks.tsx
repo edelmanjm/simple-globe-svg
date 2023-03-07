@@ -2,12 +2,13 @@
  * @category Globe
  * @module Globe Cartography Hooks
  */
-import React from 'react'
-import _ from 'lodash'
-import { useCallback, useMemo } from 'react'
-import { feature } from 'topojson-client'
-import { useProjectionContext } from '../projection/hooks'
-import { Topology, TopologyFeatures, UseTopologyFeatures } from './types'
+import React from "react";
+import get from "lodash/get.js";
+import keys from "lodash/keys.js";
+import { useCallback, useMemo } from "react";
+import { feature } from "topojson-client";
+import { useProjectionContext } from "../projection/hooks";
+import { Topology, TopologyFeatures, UseTopologyFeatures } from "./types";
 
 /**
  * @category Callback
@@ -16,24 +17,24 @@ import { Topology, TopologyFeatures, UseTopologyFeatures } from './types'
 export function useTopologyFeatures(topology?: Topology) {
   return useCallback<UseTopologyFeatures>(
     (name) => {
-      if (!topology || !name) return []
+      if (!topology || !name) return [];
       const { features } = feature(
         topology,
         topology.objects[name]
-      ) as TopologyFeatures
-      return features
+      ) as TopologyFeatures;
+      return features;
     },
     [topology]
-  )
+  );
 }
 
-export type Topologies = Record<string, GeoJSON.Feature[]>
+export type Topologies = Record<string, GeoJSON.Feature[]>;
 
 export interface TopologyLoader {
-  topology?: TopoJSON.Topology<TopoJSON.Objects<GeoJSON.GeoJsonProperties>>
-  features: GeoJSON.Feature[][]
-  keys: string[]
-  topologies: Topologies
+  topology?: TopoJSON.Topology<TopoJSON.Objects<GeoJSON.GeoJsonProperties>>;
+  features: GeoJSON.Feature[][];
+  keys: string[];
+  topologies: Topologies;
 }
 /**
  * @category Memo
@@ -42,25 +43,25 @@ export interface TopologyLoader {
 export function useTopologyLoader(
   topology?: TopoJSON.Topology
 ): TopologyLoader {
-  const objects = useMemo(() => _.get(topology, 'objects'), [topology])
-  const keys = useMemo(() => _.keys(objects), [objects])
-  const feat = useTopologyFeatures(topology)
-  const features = useMemo(() => keys.map(feat), [feat, keys])
+  const objects = useMemo(() => get(topology, "objects"), [topology]);
+  const k = useMemo(() => keys(objects), [objects]);
+  const feat = useTopologyFeatures(topology);
+  const features = useMemo(() => k.map(feat), [feat, k]);
   const topologies = useMemo<Topologies>(
     () =>
-      keys.reduce(
+      k.reduce(
         (acc, topo, i) => ({
           ...acc,
           [topo]: features[i],
         }),
         {}
       ),
-    [keys, features]
-  )
+    [k, features]
+  );
   return useMemo(
-    () => ({ topology, features, keys, topologies }),
-    [topology, features, keys, topologies]
-  )
+    () => ({ topology, features, keys: k, topologies }),
+    [topology, features, k, topologies]
+  );
 }
 
 /**
@@ -69,12 +70,12 @@ export function useTopologyLoader(
  */
 export function useProjectionPath(
   geo: GeoJSON.Feature,
-  style?: React.SVGAttributes<SVGPathElement>['style']
+  style?: React.SVGAttributes<SVGPathElement>["style"]
 ) {
-  const { path } = useProjectionContext()
+  const { path } = useProjectionContext();
   return useMemo(() => {
-    if (!geo || !path) return null
-    const d = path(geo)
-    return d ? <path d={d} style={style} /> : null
-  }, [geo, path, style])
+    if (!geo || !path) return null;
+    const d = path(geo);
+    return d ? <path d={d} style={style} /> : null;
+  }, [geo, path, style]);
 }

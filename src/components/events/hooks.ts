@@ -3,7 +3,7 @@
  * @module Globe Events Hooks
  */
 
-import { get } from "lodash";
+import get from "lodash/get.js";
 import { useCallback, useMemo } from "react";
 import { useBooleanState, useMerge } from "../hooks";
 import { EMPTY_EVENT_PROPS, SUPPORTED_EVENTS } from "./constants";

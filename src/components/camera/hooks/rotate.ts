@@ -5,7 +5,7 @@
  */
 
 import { useCallback, useMemo, useEffect, useState } from "react";
-import { noop } from "lodash";
+import noop from "lodash/noop.js";
 
 import { useEffectOnChange, useStates } from "../../hooks";
 import { limit, reflect } from "../../utils";

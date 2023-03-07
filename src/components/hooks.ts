@@ -2,7 +2,7 @@
  * @category Globe
  * @module Globe Hooks
  */
-import { noop } from "lodash";
+import noop from "lodash/noop.js";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { EMPTY_OBJECT } from "./constants";
 import { BooleanState, MutableStates } from "./types";
@@ -72,12 +72,9 @@ export function useBooleanState(initial: boolean = false) {
  */
 export function useStates<T = any>(initials: Array<T>): MutableStates<T> {
   const states = initials.map((s) => useState(s));
-  const dispatch = useCallback(
-    (p: any) => {
-      states.forEach(([s, d], i) => (Array.isArray(p) ? d(p[i]) : d(p)));
-    },
-    [states]
-  );
+  const dispatch = useCallback((p: any) => {
+    states.forEach(([s, d], i) => (Array.isArray(p) ? d(p[i]) : d(p)));
+  }, states);
   return [states, dispatch];
 }
 

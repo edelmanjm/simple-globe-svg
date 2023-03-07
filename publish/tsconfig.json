@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "outDir": "../../build/dist",
-    "module": "commonjs",
-    "target": "esnext",
-    "jsx": "react-jsx",
-    "strict": true,
     "declaration": true,
-    "esModuleInterop": true
-  }
+    "outDir": "../dist",
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+  },
+  "include": ["../src/components"]
 }
