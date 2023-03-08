@@ -5,8 +5,9 @@
 
 import git from "./gitlab.svg";
 import book from "./book.svg";
+import npm from "./npm.svg";
 
 /**
  * @category Assets
  */
-export default { git, book };
+export default { git, book, npm };

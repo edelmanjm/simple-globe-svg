@@ -8,7 +8,7 @@ import pkg from "../../package.json";
 
 const DOCS_URL = "https://gaushao.github.io/d3-react-globe/docs";
 const GIT_URL = "https://github.com/Gaushao/d3-react-globe";
-const VERSION = pkg.version;
+const NPM_URL = "https://www.npmjs.com/package/d3-react-globe";
 
 function logo(src: string, url: string) {
   const style = {
@@ -56,6 +56,7 @@ export default function Page({ children }: React.PropsWithChildren<{}>) {
   return (
     <>
       <div style={logos}>
+        <img {...logo(ASSETS.npm, NPM_URL)} />
         <img {...logo(ASSETS.git, GIT_URL)} />
         <img {...logo(ASSETS.book, DOCS_URL)} />
       </div>
