@@ -87,9 +87,9 @@ export function useTouchMoveController(index: number = 0): TouchMoveController {
         if (!enabledEvent) return dispatch(null);
         const current = e.changedTouches.item(index);
         if (id === current?.identifier) dispatch(null);
-      }
+      } else dispatch(null);
     },
-    [dispatch, id, index]
+    [id, index]
   );
   return { id, x, y, move, stop };
 }

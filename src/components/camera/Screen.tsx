@@ -73,9 +73,11 @@ export function Screen({ children, ...props }: ScreenProps) {
   useEffect(onMouseMoveRotate, [onMouseMoveRotate]);
   const { x: tX, y: tY, move: tMove, stop: tStop } = useTouchController();
   const onTouchMoveRotate = useCallback(() => {
-    rotateX(tX);
-    rotateY(tY);
-    tStop();
+    if (tX !== 0 && tY !== 0) {
+      rotateX(tX);
+      rotateY(tY);
+      tStop();
+    }
   }, [tX, tY, rotateX, rotateY, tStop]);
   useEffect(onTouchMoveRotate, [onTouchMoveRotate]);
   const data = useMemo<CameraForwardedData>(
