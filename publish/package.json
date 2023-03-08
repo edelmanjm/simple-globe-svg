@@ -1,6 +1,6 @@
 {
   "name": "d3-react-globe",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "D3 svg globe rendered by ReactJS loaded from geojson/topojson",
   "author": "Jayme Santos <jimiaspampa@gmail.com> (https://github.com/gaushao/)",
   "scripts": {
