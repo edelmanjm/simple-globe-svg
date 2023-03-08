@@ -66,15 +66,13 @@ export function Screen({ children, ...props }: ScreenProps) {
     zoom: mZoom,
   } = useMouseController();
   const onMouseMoveRotate = useCallback(() => {
-    if (mX === 0 && mY === 0) return;
-    if (mX !== 0) rotateX(mX);
-    if (mX !== 0) rotateY(mY);
+    rotateX(mX);
+    rotateY(mY);
     mStop();
-  }, [mStop, mX, mY, rotateX, rotateY]);
+  }, [mX, mY, rotateX, rotateY, mStop]);
   useEffect(onMouseMoveRotate, [onMouseMoveRotate]);
   const { x: tX, y: tY, move: tMove, stop: tStop } = useTouchController();
   const onTouchMoveRotate = useCallback(() => {
-    if (tX === 0 && tY === 0) return;
     rotateX(tX);
     rotateY(tY);
     tStop();

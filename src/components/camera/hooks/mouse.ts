@@ -54,7 +54,7 @@ export function useMouseMoveController(): MouseMoveController {
   );
   const stop = useCallback(() => {
     dispatch(0);
-  }, [dispatch]);
+  }, []);
   return { x, y, move, stop };
 }
 
