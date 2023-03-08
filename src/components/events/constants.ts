@@ -2,8 +2,8 @@
  * @category Globe
  * @module Globe Events Constants
  */
-import noop from "lodash/noop.js";
 import { EMPTY_OBJECT } from "../constants";
+import { noop } from "../utils";
 import { EventData } from "./types";
 
 /**

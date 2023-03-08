@@ -3,7 +3,6 @@
  * @module Globe Events Hooks
  */
 
-import get from "lodash/get.js";
 import { useCallback, useMemo } from "react";
 import { useBooleanState, useMerge } from "../hooks";
 import { EMPTY_EVENT_PROPS, SUPPORTED_EVENTS } from "./constants";
@@ -87,9 +86,9 @@ export function useForwardOnEvent<
   ForwardedData = Record<string, any>
 >(data: ForwardedData, props?: ComponentProps) {
   return useCallback(
-    (event: string) => {
+    (event: keyof ComponentProps) => {
       if (!props) return;
-      const callback = get(props, event, null);
+      const callback = props[event] || null;
       if (!callback) return;
       return (ev: MouseEvent) => {
         const forward = { ...ev, ...data };

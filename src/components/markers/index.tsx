@@ -5,7 +5,6 @@
  */
 
 import React from "react";
-import isEmpty from "lodash/isEmpty.js";
 import { useMerge } from "../hooks";
 
 import { Marker } from "./Marker";
@@ -24,7 +23,7 @@ interface MarkersProps {
  */
 export function Markers({ markers = [], marker }: MarkersProps) {
   const merge = useMerge();
-  return isEmpty(markers) ? null : (
+  return markers.length === 0 ? null : (
     <>
       {markers.map((m) => (
         <Marker

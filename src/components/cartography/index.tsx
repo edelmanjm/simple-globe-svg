@@ -4,7 +4,6 @@
  * @module Globe Cartography
  */
 import React from "react";
-import uniqueId from "lodash/uniqueId.js";
 import { PropsWithChildren, useCallback, useState } from "react";
 import { useEffectOnChange, useFetchJSON } from "../hooks";
 
@@ -12,6 +11,7 @@ import { Topology } from "./Topology";
 import { CartographyProps } from "./types";
 import Path from "./Path";
 import { CartographyUrl, EMPTY_CARTOGRAPHY_DATA } from "./constants";
+import { unique } from "../utils";
 
 function Switch({
   json,
@@ -26,7 +26,7 @@ function Switch({
       return (
         <>
           {features.map((f) => (
-            <Path geo={f} key={uniqueId()} {...geo} />
+            <Path geo={f} key={unique()} {...geo} />
           ))}
         </>
       );
@@ -57,7 +57,7 @@ export function Cartography({
   return (
     <>
       {data.map((d) => (
-        <Switch key={uniqueId()} json={d} geo={geo} />
+        <Switch key={unique()} json={d} geo={geo} />
       ))}
     </>
   );

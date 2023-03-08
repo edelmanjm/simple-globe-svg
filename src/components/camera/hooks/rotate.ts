@@ -5,10 +5,9 @@
  */
 
 import { useCallback, useMemo, useEffect, useState } from "react";
-import noop from "lodash/noop.js";
 
 import { useEffectOnChange, useStates } from "../../hooks";
-import { limit, reflect } from "../../utils";
+import { limit, noop, reflect } from "../../utils";
 import { useViewScaling } from "../../view/hooks";
 import { EMPTY_MUTABLE_STATE } from "../../constants";
 import { ROTATION_SENSITIVITY, ROTATION_Y_LIMIT } from "../constants";

@@ -3,8 +3,6 @@
  * @module Globe Classes
  */
 
-import flatten from "lodash/flatten.js";
-
 type PointType = [Point["0"], Point["1"]];
 /**
  * @category Value
@@ -72,7 +70,7 @@ export class Rectangle extends Array<Line> {
     );
   }
   public toArray() {
-    return flatten([this[0].toArray(), this[1].toArray()]);
+    return [...this[0].toArray(), ...this[1].toArray()];
   }
 }
 /**

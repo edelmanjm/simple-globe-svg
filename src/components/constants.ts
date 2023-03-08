@@ -3,9 +3,9 @@
  * @module Globe Constants
  */
 
-import noop from "lodash/noop.js";
 import { Coord, Line, Point } from "./classes";
 import { DispatchState, MutableState } from "./types";
+import { noop } from "./utils";
 
 /**
  * `() => noop`\

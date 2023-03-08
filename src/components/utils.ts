@@ -4,8 +4,8 @@
  * @module Globe Utils
  */
 
-import { Line, Point } from './classes'
-import { EMPTY_OBJECT } from './constants'
+import { Line, Point } from "./classes";
+import { EMPTY_OBJECT } from "./constants";
 
 /**
  * if absolute value of origin is smaller than limit value
@@ -15,7 +15,7 @@ import { EMPTY_OBJECT } from './constants'
  * @returns absolute(`origin`) < `limit`
  */
 export function inAbsRange(origin: number, limit: number): boolean {
-  return Math.abs(origin) < limit
+  return Math.abs(origin) < limit;
 }
 
 /**
@@ -27,7 +27,7 @@ export function inAbsRange(origin: number, limit: number): boolean {
  * @returns `to` if is [[inAbsRange]] else `from`
  */
 export function limit(from: number, to: number, range: number): number {
-  return inAbsRange(to, range) ? to : from
+  return inAbsRange(to, range) ? to : from;
 }
 
 /**
@@ -43,15 +43,15 @@ export function reflect(to: number, into: number): number {
   try {
     if (!inAbsRange(to, into)) {
       if (to > 0) {
-        return reflect((to % into) - into, into)
+        return reflect((to % into) - into, into);
       } else {
-        return reflect((to % into) + into, into)
+        return reflect((to % into) + into, into);
       }
     }
   } catch (e) {
-    return 0
+    return 0;
   }
-  return to
+  return to;
 }
 
 /**
@@ -60,7 +60,7 @@ export function reflect(to: number, into: number): number {
  * @returns difference between `a` to `b`
  */
 export function diff(a: number, b: number): number {
-  return a > b ? a - b : b - a
+  return a > b ? a - b : b - a;
 }
 /**
  * first param may be initial position
@@ -68,8 +68,8 @@ export function diff(a: number, b: number): number {
  * @returns diff between `initial` to `last` regarded direction
  */
 export function axisDiff(initial: number, last: number): number {
-  const result = diff(initial, last)
-  return initial > last ? -result : result
+  const result = diff(initial, last);
+  return initial > last ? -result : result;
 }
 
 /**
@@ -81,10 +81,10 @@ export function axisDiff(initial: number, last: number): number {
  * @returns distance between `a` and `b`
  */
 export function getDistance(a: Point, b: Point) {
-  let deltaX = diff(a.x, b.x)
-  let deltaY = diff(a.y, b.y)
-  const dist = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2))
-  return dist
+  let deltaX = diff(a.x, b.x);
+  let deltaY = diff(a.y, b.y);
+  const dist = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
+  return dist;
 }
 
 /**
@@ -95,8 +95,8 @@ export function getDistance(a: Point, b: Point) {
  * @returns [[Line]] diagonal of element bounding box
  */
 export function getDOMRectDiagonal(el: Element): Line {
-  const { left, top, right, bottom } = el.getBoundingClientRect()
-  return new Line(Line.point(left, top), Line.point(right, bottom))
+  const { left, top, right, bottom } = el.getBoundingClientRect();
+  return new Line(Line.point(left, top), Line.point(right, bottom));
 }
 
 /**
@@ -106,7 +106,7 @@ export function getDOMRectDiagonal(el: Element): Line {
  * @returns {boolean}
  */
 export function isObject(item: Record<string, any> = EMPTY_OBJECT) {
-  return item && typeof item === 'object' && !Array.isArray(item)
+  return item && typeof item === "object" && !Array.isArray(item);
 }
 
 /**
@@ -116,20 +116,40 @@ export function isObject(item: Record<string, any> = EMPTY_OBJECT) {
  * @param source - properties to merge on
  * @returns merged objects
  */
-export default function mergeDeep(
+export function mergeDeep(
   target: Record<string, any> = EMPTY_OBJECT,
   source: Record<string, any> = EMPTY_OBJECT
 ) {
-  let output = Object.assign({}, target)
+  let output = Object.assign({}, target);
   if (isObject(target) && isObject(source)) {
     Object.keys(source).forEach((key) => {
       if (isObject(source[key])) {
-        if (!(key in target)) Object.assign(output, { [key]: source[key] })
-        else output[key] = mergeDeep(target[key], source[key])
+        if (!(key in target)) Object.assign(output, { [key]: source[key] });
+        else output[key] = mergeDeep(target[key], source[key]);
       } else {
-        Object.assign(output, { [key]: source[key] })
+        Object.assign(output, { [key]: source[key] });
       }
-    })
+    });
   }
-  return output
+  return output;
+}
+
+interface Noop {
+  (...args: any[]): void;
+}
+/**
+ * does nothing, use as empty function
+ * @category Tool
+ * @returns undefined
+ */
+export const noop: Noop = () => {};
+
+let uniqueId = Date.now();
+/**
+ * accumulator
+ * @category Tool
+ * @returns unique id
+ */
+export function unique(prefix?: any) {
+  return String(prefix) + ++uniqueId;
 }

@@ -67,8 +67,8 @@ export function Screen({ children, ...props }: ScreenProps) {
   } = useMouseController();
   const onMouseMoveRotate = useCallback(() => {
     if (mX === 0 && mY === 0) return;
-    rotateX(mX);
-    rotateY(mY);
+    if (mX !== 0) rotateX(mX);
+    if (mX !== 0) rotateY(mY);
     mStop();
   }, [mStop, mX, mY, rotateX, rotateY]);
   useEffect(onMouseMoveRotate, [onMouseMoveRotate]);

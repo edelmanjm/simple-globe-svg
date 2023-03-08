@@ -2,11 +2,10 @@
  * @category Globe
  * @module Globe Hooks
  */
-import noop from "lodash/noop.js";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { EMPTY_OBJECT } from "./constants";
 import { BooleanState, MutableStates } from "./types";
-import mergeDeep, { getDistance } from "./utils";
+import { mergeDeep, getDistance, noop } from "./utils";
 
 /**
  * @param ref element target to call addEventListener

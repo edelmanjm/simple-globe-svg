@@ -3,12 +3,12 @@
  * @module Globe Cartography Hooks
  */
 import React from "react";
-import get from "lodash/get.js";
-import keys from "lodash/keys.js";
 import { useCallback, useMemo } from "react";
 import { feature } from "topojson-client";
 import { useProjectionContext } from "../projection/hooks";
 import { Topology, TopologyFeatures, UseTopologyFeatures } from "./types";
+
+const { keys } = Object;
 
 /**
  * @category Callback
@@ -43,8 +43,7 @@ export interface TopologyLoader {
 export function useTopologyLoader(
   topology?: TopoJSON.Topology
 ): TopologyLoader {
-  const objects = useMemo(() => get(topology, "objects"), [topology]);
-  const k = useMemo(() => keys(objects), [objects]);
+  const k = useMemo(() => keys(topology?.objects || {}), [topology]);
   const feat = useTopologyFeatures(topology);
   const features = useMemo(() => k.map(feat), [feat, k]);
   const topologies = useMemo<Topologies>(
