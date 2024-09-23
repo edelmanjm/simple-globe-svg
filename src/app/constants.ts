@@ -28,36 +28,34 @@ const GEO_PROPS = {
   },
 };
 
-const MARKERS = [
-  {
-    props: {
-      // onClick: (e) => console.log(e),
-      hover: {
-        enter: {
-          // callback: (e: any) => console.log(e),
-          props: {
-            style: {
-              opacity: 0,
-            },
+const MARKER = {
+  props: {
+    // onClick: (e) => console.log(e),
+    hover: {
+      enter: {
+        // callback: (e: any) => console.log(e),
+        props: {
+          style: {
+            opacity: 0,
           },
         },
       },
     },
-    id: "br",
-    coordinates: new Coord(-15.7942, -47.8825),
-    label: {
-      text: "★",
-      style: {
-        stroke: "none",
-        fill: "green",
-        fontSize: "64px"
-      },
+  },
+  id: "br",
+  coordinates: new Coord(-15.7942, -47.8825),
+  label: {
+    text: "★",
+    style: {
+      stroke: "none",
+      fill: "#00ff00",
+      fontSize: "64px"
     },
   },
-];
+};
 
 export default {
   VIEW_PROPS,
   GEO_PROPS,
-  MARKERS,
+  MARKER,
 };

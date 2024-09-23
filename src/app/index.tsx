@@ -4,11 +4,11 @@
  * @module Dev App
  */
 
-import { useState } from "react";
 import Globe from "../components";
 import Page from "./Page";
 import CONST from "./constants";
-import {usePaneInput, useTweakpane} from "react-tweakpane";
+import {usePaneInput, useTextBlade, useTweakpane} from "react-tweakpane";
+import {MarkerData} from "../components/markers/types";
 
 window.document.body.style.margin = "0";
 window.document.body.style.height = "100vh";
@@ -24,24 +24,34 @@ window.document.body.style.fontFamily = "system-ui";
  * >>[[Globe]]
  */
 function App() {
+  let marker: MarkerData = CONST.MARKER;
+
   const pane = useTweakpane(
     {
-      position: { x: 0, y: 0, z: 0 },
-      rotation: { x: 0, y: 0, z: 0 },
-      scale: { x: 1, y: 1, z: 1 },
-      color: '#ffa500',
+      labelText: '★',
+      labelColor: marker.label?.style?.fill
     },
     {
       title: 'Globe settings',
     }
   )
 
+  // @ts-ignore
+  usePaneInput(pane, 'labelColor', { label: 'Label color' }, (event: any) => {
+    if (marker.label && marker.label.style) {
+      marker.label.style = {
+        ...marker.label.style,
+        "fill": event.value,
+      };
+    }
+  })
+
   return (
     <Page>
       <Globe
         settings={CONST.VIEW_PROPS}
         geo={CONST.GEO_PROPS}
-        markers={CONST.MARKERS}
+        markers={[marker]}
       />
     </Page>
   );
