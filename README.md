@@ -1,14 +1,17 @@
-### This
+# simple-globe-svg
 
-ReactJS component loads any topojson/geojson to be (geoOrthographic) projected by ​D3.js, renders the globe in SVG with mouse interaction and allow some event and styling options
+![A screenshot of the application](public/splash.png)
 
-### Try
+### A simple topojson/geojson → SVG renderer using ZWSPD3.js. Supports mouse interaction and basic tweakable labels.
+Forked from [Gaushao/d3-react-globe](https://github.com/Gaushao/d3-react-globe) (thanks!)
 
-- [Live](https://gaushao.github.io/d3-react-globe/)
-- [Docs](https://gaushao.github.io/d3-react-globe/docs)
-- [Git](https://github.com/Gaushao/d3-react-globe)
+## Try
 
-### Dev
+- [Live](https://edelmanjm.github.io/simple-globe-svg)
+- [Docs](https://edelmanjm.github.io/simple-globe-svg/docs)
+- [Git](https://github.com/edelmanjm/simple-globe-svg?tab=readme-ov-file)
+
+## Dev
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -37,7 +40,7 @@ $ npm i -g http-server
 $ http-server build/docs
 ```
 
-### Build
+## Build
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -75,7 +78,7 @@ _MD_
 $ yarn docsmd
 ```
 
-### Publish
+## Publish
 
 #### npm package
 
@@ -89,14 +92,7 @@ npm run publish
 yarn deploy
 ```
 
-### Permissions
-
-```
-chmod +x ./deploy/.sh
-chmod +x ./publish/.sh
-```
-
-### Add Missing Third-Part Declarations
+## Add Missing Third-Part Declarations
 
 at `src/types.d.ts`
 

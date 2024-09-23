@@ -7,9 +7,9 @@ import ASSETS from "./assets";
 import pkg from "../../package.json";
 import { SVG_ID } from "./constants";
 
-const DOCS_URL = "https://gaushao.github.io/d3-react-globe/docs";
-const GIT_URL = "https://github.com/Gaushao/d3-react-globe";
-const NPM_URL = "https://www.npmjs.com/package/d3-react-globe";
+const DOCS_URL = "https://edelmanjm.github.io/simple-globe-svg/docs";
+const GIT_URL = "https://github.com/edelmanjm/simple-globe-svg";
+const NPM_URL = "https://www.npmjs.com/package/simple-globe-svg";
 
 function logo(src: string, url: string) {
   const style = {

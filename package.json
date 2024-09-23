@@ -1,8 +1,8 @@
 {
-  "name": "d3-react-globe",
-  "version": "0.0.9",
-  "description": "D3 svg globe rendered by ReactJS loaded from geojson/topojson",
-  "homepage": "https://gaushao.github.io/d3-react-globe",
+  "name": "simple-globe-svg",
+  "version": "0.0.10",
+  "description": "A simple topojson/geojson → SVG renderer using ZWSPD3.js. Supports mouse interaction and basic tweakable labels.",
+  "homepage": "https://github.com/edelmanjm/simple-globe-svg/",
   "author": {
     "name": "Jayme Santos",
     "email": "jimiaspampa@gmail.com"
