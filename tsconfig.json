@@ -19,5 +19,8 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
   },
-  "include": ["./src"]
+  "include": [
+    "./src",
+    "node_modules/react-tweakpane"
+  ]
 }

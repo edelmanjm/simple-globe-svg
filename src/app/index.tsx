@@ -8,6 +8,7 @@ import { useState } from "react";
 import Globe from "../components";
 import Page from "./Page";
 import CONST from "./constants";
+import {usePaneInput, useTweakpane} from "react-tweakpane";
 
 window.document.body.style.margin = "0";
 window.document.body.style.height = "100vh";
@@ -23,6 +24,18 @@ window.document.body.style.fontFamily = "system-ui";
  * >>[[Globe]]
  */
 function App() {
+  const pane = useTweakpane(
+    {
+      position: { x: 0, y: 0, z: 0 },
+      rotation: { x: 0, y: 0, z: 0 },
+      scale: { x: 1, y: 1, z: 1 },
+      color: '#ffa500',
+    },
+    {
+      title: 'Globe settings',
+    }
+  )
+
   return (
     <Page>
       <Globe
