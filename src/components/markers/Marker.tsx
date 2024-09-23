@@ -52,7 +52,8 @@ export function Marker(props: PropsWithChildren<MarkerData>) {
 
   if (!projection) return null;
 
-  const projected = projection(props.coordinates.toArray());
+  // Latitude is y, longitude is x
+  const projected = projection([props.coordinates.y, props.coordinates.x]);
   if (!projected) return null;
   const [x, y] = projected;
 
