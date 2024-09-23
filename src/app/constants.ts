@@ -50,7 +50,7 @@ const MARKER = {
     dominantBaseline: "middle",
     style: {
       stroke: "none",
-      fill: "#00ff00",
+      fill: "#ff0000",
       fontSize: "64px"
     },
   },
