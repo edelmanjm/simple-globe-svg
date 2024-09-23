@@ -9,6 +9,7 @@ import Page from "./Page";
 import CONST from "./constants";
 import {usePaneInput, useTextBlade, useTweakpane} from "react-tweakpane";
 import {MarkerData} from "../components/markers/types";
+import {Coord} from "../components/classes";
 
 window.document.body.style.margin = "0";
 window.document.body.style.height = "100vh";
@@ -28,6 +29,8 @@ function App() {
 
   const pane = useTweakpane(
     {
+      latitude: marker.coordinates.latitude,
+      longitude: marker.coordinates.longitude,
       labelText: '★',
       labelColor: marker.label?.style?.fill
     },
@@ -36,15 +39,33 @@ function App() {
     }
   )
 
-  // @ts-ignore
-  usePaneInput(pane, 'labelColor', { label: 'Label color' }, (event: any) => {
-    if (marker.label && marker.label.style) {
+  const [latitude] = usePaneInput(pane, 'latitude', {
+    label: "Latitude",
+    min: -90,
+    max: 90
+  })
+  const [longitude] = usePaneInput(pane, 'longitude', {
+    label: "Longitude",
+    min: -180,
+    max: 180
+  })
+  const [labelText] = usePaneInput(pane, 'labelText', {
+    label: "Label text"
+  })
+  const [labelColor] = usePaneInput(pane, 'labelColor', {
+    label: "Label color"
+  });
+
+  marker.coordinates = new Coord(latitude, longitude);
+  if (marker.label) {
+    marker.label.text = labelText;
+    if (marker.label.style) {
       marker.label.style = {
         ...marker.label.style,
-        "fill": event.value,
+        "fill": labelColor
       };
     }
-  })
+  }
 
   return (
     <Page>

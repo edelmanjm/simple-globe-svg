@@ -5,11 +5,13 @@
 import React from "react";
 import { PropsWithChildren, useMemo } from "react";
 import { useProjectionContext } from "../projection/hooks";
-import { useCameraCenterDistance } from "../camera/hooks/index";
+import {useCameraCenterDistance, useCameraContext} from "../camera/hooks/index";
 import { MarkerData } from "./types";
 import Pin from "./Pin";
 import Label from "./Label";
 import Events from "../events/index";
+import {Coord} from "../classes";
+import {diff, inAbsRange} from "../utils";
 
 /**
  * @category Component
@@ -57,9 +59,10 @@ export function Marker(props: PropsWithChildren<MarkerData>) {
   if (!projected) return null;
   const [x, y] = projected;
 
-  const inCameraRange = distance(props.coordinates) <= 90;
+  // FIXME broken
+  // const inCameraRange = distance(props.coordinates) <= 90;
 
-  if (!inCameraRange) return null;
+  // if (!inCameraRange) return null;
   return (
     <Events props={props.props || {}} forward={forward}>
       <g transform={`translate(${x}, ${y})`}>{<LabeledPin {...props} />}</g>
