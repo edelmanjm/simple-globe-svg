@@ -2,7 +2,7 @@
   "name": "simple-globe-svg",
   "version": "0.0.10",
   "description": "A simple topojson/geojson → SVG renderer using ZWSPD3.js. Supports mouse interaction and basic tweakable labels.",
-  "homepage": "https://github.com/edelmanjm/simple-globe-svg/",
+  "homepage": "https://edelmanjm.github.io/simple-globe-svg/",
   "author": {
     "name": "Jayme Santos",
     "email": "jimiaspampa@gmail.com"
