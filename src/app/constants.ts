@@ -44,11 +44,13 @@ const MARKERS = [
       },
     },
     id: "br",
-    coordinates: new Coord(-47.8825, -15.7942),
+    coordinates: new Coord(-15.7942, -47.8825),
     label: {
-      text: "Brazil",
+      text: "★",
       style: {
-        stroke: "green",
+        stroke: "none",
+        fill: "green",
+        fontSize: "64px"
       },
     },
   },

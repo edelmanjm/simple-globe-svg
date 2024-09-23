@@ -9,12 +9,12 @@ import { ViewData } from "./classes";
 /**
  * @category Initial
  */
-export const INITIAL_WIDTH = 800;
+export const INITIAL_WIDTH = 1024;
 
 /**
  * @category Initial
  */
-export const INITIAL_HEIGHT = 600;
+export const INITIAL_HEIGHT = 1024;
 /**
  * @category Initial
  */
