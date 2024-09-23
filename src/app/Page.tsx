@@ -5,6 +5,7 @@
 
 import ASSETS from "./assets";
 import pkg from "../../package.json";
+import { SVG_ID } from "./constants";
 
 const DOCS_URL = "https://gaushao.github.io/d3-react-globe/docs";
 const GIT_URL = "https://github.com/Gaushao/d3-react-globe";
@@ -39,10 +40,31 @@ const footer: React.CSSProperties = {
   padding: 4,
   bottom: 16,
   right: 16,
+  gap: 16,
   zIndex: 1,
   borderRadius: 5,
   backgroundColor: "white",
 };
+
+function DownloadSvg() {
+  const svgElement = document.getElementById(SVG_ID);
+  if (!svgElement) {
+    return false;
+  }
+
+  const svgString = new XMLSerializer().serializeToString(svgElement)
+  const blob = new Blob([svgString], { type: 'image/svg+xml' });
+
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'globe.svg';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 
 /**
  * layout wrapper
@@ -60,7 +82,10 @@ export default function Page({ children }: React.PropsWithChildren<{}>) {
         <img {...logo(ASSETS.git, GIT_URL)} />
         <img {...logo(ASSETS.book, DOCS_URL)} />
       </div>
-      <div style={footer}>v{pkg.version}</div>
+      <div style={footer}>
+        <button onClick={DownloadSvg}>Download as SVG</button>
+        v{pkg.version}
+      </div>
       {children}
     </>
   );

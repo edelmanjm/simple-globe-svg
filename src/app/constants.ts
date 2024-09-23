@@ -54,6 +54,8 @@ const MARKER = {
   },
 };
 
+export const SVG_ID = "globe_svg";
+
 export default {
   VIEW_PROPS,
   GEO_PROPS,

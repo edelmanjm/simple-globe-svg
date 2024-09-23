@@ -10,8 +10,6 @@ import { MarkerData } from "./types";
 import Pin from "./Pin";
 import Label from "./Label";
 import Events from "../events/index";
-import {Coord} from "../classes";
-import {diff, inAbsRange} from "../utils";
 
 /**
  * @category Component

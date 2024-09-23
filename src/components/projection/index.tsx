@@ -9,6 +9,7 @@ import { useViewContext } from "../view/hooks";
 import { useCameraContext } from "../camera/hooks/index";
 import { ProjectionContext } from "./Context";
 import { EMPTY_AXLE } from "../constants";
+import { SVG_ID } from "../../app/constants";
 
 /**
  * provides D3 projected path
@@ -48,7 +49,7 @@ export const Projection = ({
         path,
       }}
     >
-      <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
+      <svg id={SVG_ID} width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
         {children}
       </svg>
     </ProjectionContext.Provider>
