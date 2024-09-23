@@ -46,6 +46,8 @@ const MARKER = {
   coordinates: new Coord(-15.7942, -47.8825),
   label: {
     text: "★",
+    textAnchor: "middle",
+    dominantBaseline: "middle",
     style: {
       stroke: "none",
       fill: "#00ff00",
