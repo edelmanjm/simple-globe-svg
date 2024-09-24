@@ -26,7 +26,7 @@ export const ZOOM_SENSITIVITY = 1.5;
 /**
  * @category Initial
  */
-export const INITIAL_SCALE = 50 ** ZOOM_SENSITIVITY;
+export const INITIAL_SCALE = Math.min(INITIAL_WIDTH, INITIAL_HEIGHT) / 2;
 /**
  * @category Empty
  */
